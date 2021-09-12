@@ -4,7 +4,7 @@
 
 **Theory**
 
-In the previous lab, we worked on data cleaning and wrangling. In this lab, we will learn the core topic of model building for making predictions.
+Earlier, we worked on data cleaning and wrangling. In this lab, we will learn the core topic of model building for making predictions.
 
 **Regression Analysis**
 
@@ -874,18 +874,11 @@ Using the data in the below URL,
 
 
 
-
-
-
-
-
-
-
-**Lab  7: Regression Analysis – Part II**
+**Lab  6: Regression Analysis – Part II**
 
 **Theory**
 
-In the previous lab, we studied the regression analysis and its assumptions. In this lab we will investigate the Cost Function Optimization Algorithm, Categorical Features in a Regression model, Feature Scaling, Features Selection, Regularization, and Polynomial Regression.
+Earlier, we studied the regression analysis and its assumptions. In this lab we will investigate the Cost Function Optimization Algorithm, Categorical Features in a Regression model, Feature Scaling, Features Selection, Regularization, and Polynomial Regression.
 
 **Cost Function**
 
@@ -897,7 +890,7 @@ In the previous lab, we studied the regression analysis and its assumptions. In 
 
 
 
-In the previous lab, we discussed a few cost functions such as,
+Earlier, we discussed a few cost functions such as,
 
 - Mean Absolute Error
 - Mean Square Error

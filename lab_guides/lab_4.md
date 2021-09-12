@@ -1,6 +1,6 @@
 
 
-**Lab  3 – INFERENTIAL STATISTICS**
+**Lab  4 – INFERENTIAL STATISTICS**
 
 **Theory**
 

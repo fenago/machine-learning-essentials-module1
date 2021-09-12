@@ -39,7 +39,7 @@ Labs for this course are available at path shared below.
 7. ##### Working with Pandas DataFrames
 		* http://<lab-environment>/lab/workspaces/lab7_DataFrames
 8. ##### Data Wrangling with Pandas
-		* http://<lab-environment>/lab/workspaces/lab8_ Data_Wrangling
+		* http://<lab-environment>/lab/workspaces/lab8_Data_Wrangling
 9. ##### Aggregating Pandas DataFrames
 		* http://<lab-environment>/lab/workspaces/lab9_Aggregating_DataFrames
 10. ##### Visualizing Data with Pandas and Matplotlib

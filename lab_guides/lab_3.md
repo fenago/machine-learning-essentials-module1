@@ -1,12 +1,5 @@
 
-
-
-
-
-
-
-
-**Lab  2: PROBABILITY DISTRIBUTIONS**
+**Lab  3: PROBABILITY DISTRIBUTIONS**
 
 **Theory**
 
