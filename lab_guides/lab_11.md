@@ -1,4 +1,4 @@
-<img align="right" src="../logo.png">
+<img align="right" src="./logo.png">
 
 
 Lab 11: Plotting with Seaborn and Customization Techniques

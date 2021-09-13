@@ -1,6 +1,6 @@
 
 
-<img align="right" src="../logo.png">
+<img align="right" src="./logo.png">
 
 
 Lab 14: The Road Ahead

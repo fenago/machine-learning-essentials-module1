@@ -1,6 +1,6 @@
 
 
-<img align="right" src="../logo.png">
+<img align="right" src="./logo.png">
 
 
 Lab 12: Financial Analysis -- Bitcoin and the Stock Market
