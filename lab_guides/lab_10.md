@@ -141,7 +141,7 @@ fix the *y*-axis range; this will be covered in the next lab when we
 discuss formatting and customizing the appearance of our plots. Pandas
 and `seaborn` will take care of some of this for us, at least.
 
-For the remainder of this book, we will be using the
+For the remainder of this course, we will be using the
 `%matplotlib inline` magic command (remember, this needs to be
 used in a Jupyter Notebook to work), so we won\'t be calling
 `plt.show()` after our plotting code. The following code gives
@@ -559,7 +559,7 @@ visualization for a specific analysis goal, such as showing the
 evolution over time or the relationship between the
 variables in the data. Note that, wherever
 possible, the plots have been styled so that they can be interpreted in
-black and white for this book.
+black and white for this course.
 
 
 
@@ -1863,7 +1863,7 @@ Exercises
 
 
 Create the following visualizations using what you have learned up to
-this point in this book. Use the data from this chapter\'s
+this point in this course. Use the data from this lab\'s
 `data/` directory:
 
 1.  Plot the rolling 20-day minimum of the Facebook closing price using
@@ -1884,7 +1884,7 @@ this point in this book. Use the data from this chapter\'s
 
     a\) First, use the `diff()` method that was introduced in
     the *Working with time series data* section of [*Chapter
-    4*](https://subscription.packtpub.com/book/data/9781800563452/6),
+    4*](https://subscription.packtpub.com/course/data/9781800563452/6),
     *Aggregating Pandas DataFrames*, to calculate the day-over-day
     change in new cases. Then, use `rolling()` to calculate
     the 14-day moving average.
@@ -1900,7 +1900,7 @@ this point in this book. Use the data from this chapter\'s
     difference between that day\'s opening price and the prior day\'s
     closing price (be sure to review the *Working with time series data*
     section of [*Chapter
-    4*](https://subscription.packtpub.com/book/data/9781800563452/6),
+    4*](https://subscription.packtpub.com/course/data/9781800563452/6),
     *Aggregating Pandas DataFrames*, for an easy way to do this).
 
     b\) The second subplot will be a bar plot showing the net effect

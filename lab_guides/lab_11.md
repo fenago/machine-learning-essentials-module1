@@ -2245,7 +2245,7 @@ Exercises
 
 
 Create the following visualizations using what we have learned so far in
-this book and the data from this chapter. Be sure to add titles, axis
+this course and the data from this lab. Be sure to add titles, axis
 labels, and legends (where appropriate) to the plots:
 
 1.  Using `seaborn`, create a heatmap to visualize the

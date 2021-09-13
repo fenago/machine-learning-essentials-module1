@@ -44,7 +44,7 @@ GitHub at
 **Important note:**
 
 We will be using this package throughout this lab. The directory for
-this lab in this book\'s repository has the
+this lab in this course\'s repository has the
 `financial_analysis.ipynb` notebook we will use for our actual
 analysis and can be found at
 <https://github.com/fenago/Hands-On-Data-Analysis-with-Pandas-2nd-edition/tree/master/ch_07>.
@@ -3273,7 +3273,7 @@ with decomposition, ARIMA, and linear regression
 `statsmodels` package in the `StockModeler` class.
 This lab showed us how the `pandas`,
 `matplotlib`, `seaborn`, and `numpy`
-functionality that we\'ve covered so far in this book has come together
+functionality that we\'ve covered so far in this course has come together
 and how these libraries can work harmoniously with other packages for
 custom applications. I strongly encourage you to reread the code in the
 `stock_analysis` package and test out some of the methods we

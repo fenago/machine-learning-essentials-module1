@@ -102,7 +102,7 @@ and whether it is empty.
 
 **Important note:**
 
-For the remainder of this book, we will refer to `DataFrame`
+For the remainder of this course, we will refer to `DataFrame`
 objects as dataframes, `Series` objects as series, and
 `Index` objects as index/indices, unless we are referring to
 the class itself.
@@ -197,7 +197,7 @@ https://docs.python.org/3/tutorial/datastructures.html\#list-comprehensions.
 **IPython** (<https://ipython.readthedocs.io/en/stable/index.html>)
 provides an interactive shell for Python. Jupyter
 Notebooks are built on top of IPython. While knowledge of IPython is not
-required for this book, it can be helpful to be familiar with some of
+required for this course, it can be helpful to be familiar with some of
 its functionality. IPython includes a tutorial in their documentation at
 <https://ipython.readthedocs.io/en/stable/interactive/>.
 
@@ -355,7 +355,7 @@ class significantly more powerful than a NumPy array. The
 row. Depending on the type, we can provide a row
 number, a date, or even a string to select our row. It plays a key role
 in identifying entries in the data and is used for a multitude of
-operations in `pandas`, as we will see throughout this book.
+operations in `pandas`, as we will see throughout this course.
 We can access the index through the `index` attribute:
 
 ```
@@ -938,7 +938,7 @@ we need them, some of which include the following:
 
 
 
-Throughout this book, we will be working with CSV
+Throughout this course, we will be working with CSV
 files; however, note that we can use the `read_excel()`
 function to read in Excel files, the `read_json()` function
 for **JSON** (**JavaScript Object Notation**) files, and for other
@@ -1005,7 +1005,7 @@ Before we read from a database, let\'s write to one. We simply call
 `to_sql()` on our dataframe, telling it which table to write
 to, which database connection to use, and how to handle if the table
 already exists. There is already a SQLite database in the folder for
-this lab in this book\'s GitHub repository:
+this lab in this course\'s GitHub repository:
 `data/quakes.db`. Note that, to create a new database, we can
 change `'data/quakes.db'` to the path for the new database
 file. Let\'s write the tsunami data from the
@@ -2442,15 +2442,6 @@ array([..., 'California', 'Canada', 'Carlsberg Ridge', ...,
        'South Sandwich Islands', ..., 'Yemen'], dtype=object)
 ```
 
-
-**Important note:**
-
-In practice, entity recognition can be an
-extremely difficult problem, where we may look to employ **natural
-language processing** (**NLP**) algorithms to help us. While this is
-well beyond the scope of this book, more information can be found at
-https://www.kdnuggets.com/2018/12/introduction-named-entity-recognition.html.
-
 Pandas also provides us with a way to make many
 new columns at once in one method call. With the `assign()`
 method, the arguments are the names of the columns we want to create (or
@@ -2513,7 +2504,7 @@ allows us to create a column with the result of
 When working with `pandas`, it\'s crucial to get comfortable
 with `lambda` functions, as they can be used with much of the
 functionality available and will dramatically improve the quality and
-readability of the code. Throughout this book, we will see various
+readability of the code. Throughout this course, we will see various
 places where `lambda` functions can be used.
 
 Now that we have seen how to add new columns,
@@ -2843,7 +2834,7 @@ Exercises
 =========
 
 Using the `data/parsed.csv` file and the material from this
-chapter, complete the following exercises to practice your
+lab, complete the following exercises to practice your
 `pandas` skills:
 
 1.  Find the 95[th]{.superscript} percentile of earthquake magnitude in

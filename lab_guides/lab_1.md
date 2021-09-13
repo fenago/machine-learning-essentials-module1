@@ -5,8 +5,17 @@
 Lab 1: Introduction to Data Analysis
 =======================================
 
+In this lab, we will go through Jupyter Notebooks and  run some checks to make sure that everything is
+set up properly in lab environment. We will also review python basics.
 
-In this lab, we will verify packages installed in lab environment
+
+#### Pre-reqs:
+- Google Chrome (Recommended)
+
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/workmachine-learning-essentials-module1/Lab03` folder. 
 
 
 #### JupyterLab
@@ -25,35 +34,6 @@ which contains the Jupyter Notebook that we will use to validate our
 setup.
 
 
-Lab materials
-=================
-
-We will use the `check_your_environment.ipynb` notebook to get familiar with
-Jupyter Notebooks and to run some checks to make sure that everything is
-set up properly for the rest of this book.
-
-While the bulk of this lab doesn\'t involve any coding, feel free to
-follow along in the `introduction_to_data_analysis.ipynb`
-notebook. 
-
-Since the code that\'s used to generate the content in these notebooks
-is not the main focus of this lab, the majority of it has been
-separated into the `visual_aids` package, which is used to
-create visuals for explaining concepts throughout the book, and the
-`check_environment.py` file. If you choose to inspect these
-files, don\'t be overwhelmed; everything that\'s relevant to data
-science will be covered in this book.
-
-Every lab includes exercises; however, for this lab only, there
-is an `exercises.ipynb` notebook, with code to generate some
-initial data. Knowledge of basic Python will be necessary to complete
-these exercises. For those who would like to review the basics, make
-sure to run through the `python_101.ipynb` notebook, included
-in the materials for this lab, for a crash course.
-
-
-
-
 ### Validating the Environment
 
 Open the `checking_your_setup.ipynb` notebook in the
@@ -64,24 +44,21 @@ screenshot:
 ![](./images/Figure_1.19_B16834.jpg)
 
 
+Lab materials
+=================
 
-Summary
-=======
+In this lab, there is an `exercises.ipynb` notebook, with code to generate some
+initial data. Knowledge of basic Python will be necessary to complete
+these exercises. For those who would like to review the basics, make
+sure to run through the `python_101.ipynb` notebook, included
+in the materials for this lab, for a crash course.
 
-In this lab, we learned about the main processes in conducting data
-analysis: data collection, data wrangling, EDA, and drawing conclusions.
-We followed that up with an overview of descriptive statistics and
-learned how to describe the central tendency and spread of our data; how
-to summarize it both numerically and visually using the 5-number
-summary, box plots, histograms, and kernel density estimates; how to
-scale our data; and how to quantify relationships between variables in
-our dataset.
 
 Exercises
 =========
 
 Run through the `introduction_to_data_analysis.ipynb` notebook
-for a review of this chapter\'s content, review the
+for a review of this lab\'s content, review the
 `python_101.ipynb` notebook (if needed), and then complete the
 following exercises to practice working with JupyterLab and calculating
 summary statistics in Python:
@@ -98,7 +75,7 @@ summary statistics in Python:
 
 4.  Run the code in the first cell of the `exercises.ipynb`
     notebook. It will give you a list of 100 values to work with for the
-    rest of the exercises in this chapter. Be sure to treat these values
+    rest of the exercises in this lab. Be sure to treat these values
     as a sample of the population.
 
 5.  Using the data from *exercise 4*, calculate the following statistics

@@ -1,6 +1,6 @@
 # Chapter 8: Rule-Based Anomaly Detection
 
-This chapter covers [simulating data](https://github.com/fenago/login-attempt-simulator) and applying everything learned in chapters 1-6 to catching hackers attempting to authenticate to a website, using rule-based strategies for anomaly detection.
+This lab covers [simulating data](https://github.com/fenago/login-attempt-simulator) and applying everything learned in chapters 1-6 to catching hackers attempting to authenticate to a website, using rule-based strategies for anomaly detection.
 
 ## Content
 
@@ -13,5 +13,5 @@ All of the aforementioned files are provided in this directory:
 - [`anomaly_detection.ipynb`](./anomaly_detection.ipynb): Jupyter notebook used to perform our analysis
 - [`simulate.py`](./simulate.py): Python script for simulating the data using the [`login_attempt_simulator` package](https://github.com/fenago/login-attempt-simulator)
 
-The end-of-chapter exercises will use the [`simulate.py`](./simulate.py) script to generate a new dataset; solutions to these exercises can be found in the repository's [`solutions/ch_08/`](../solutions/ch_08) directory.
+The end-of-lab exercises will use the [`simulate.py`](./simulate.py) script to generate a new dataset; solutions to these exercises can be found in the repository's [`solutions/ch_08/`](../solutions/ch_08) directory.
 

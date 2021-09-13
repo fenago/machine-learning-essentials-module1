@@ -2096,7 +2096,7 @@ Exercises
 
 
 Complete the following exercises to practice the concepts covered in
-this chapter:
+this lab:
 
 1.  Run the simulation for December 2018 into new log files without
     making the user base again. Be sure to run
@@ -2118,4 +2118,4 @@ this chapter:
     calculate the metrics needed for the baselines.
 5.  Calculate metrics to evaluate how well these rules performed using
     the `evaluate()` and `classification_stats()`
-    functions from this chapter.
+    functions from this lab.

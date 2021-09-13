@@ -1655,7 +1655,7 @@ Friday, the 6th:
 **Tip:** 
 
 Here, we use `np.where()` to both
-introduce a function we will see throughout this book and to make it
+introduce a function we will see throughout this course and to make it
 easier to understand what is going on, but note that
 `np.where(x.open.isnull(), x.close, x.open)` can be replaced
 with the `combine_first()` method, which (for this use case)
@@ -2905,13 +2905,13 @@ Exercises
 =========
 
 Complete the following exercises using what we have learned so far in
-this book and the data in the `exercises/` directory:
+this course and the data in the `exercises/` directory:
 
 1.  We want to look at data for the **Facebook, Apple, Amazon, Netflix,
     and Google** (**FAANG**) stocks, but we were given each as a
     separate CSV file (obtained using the `stock_analysis`
     package we will build in [*Chapter
-    7*](https://subscription.packtpub.com/book/data/9781800563452/10),
+    7*](https://subscription.packtpub.com/course/data/9781800563452/10),
     *Financial Analysis -- Bitcoin and the Stock Market*). Combine them
     into a single file and store the dataframe of the FAANG data as
     `faang` for the rest of the exercises:
@@ -2981,7 +2981,7 @@ this book and the data in the `exercises/` directory:
 
 7.  In order to determine the case totals per country efficiently, we
     need the aggregation skills we will learn about in [*Chapter
-    4*](https://subscription.packtpub.com/book/data/9781800563452/6),
+    4*](https://subscription.packtpub.com/course/data/9781800563452/6),
     *Aggregating Pandas DataFrames*, so the ECDC data in the
     `covid19_cases.csv` file has been aggregated for us and
     saved in the `covid19_total_cases.csv` file. It contains

@@ -1,6 +1,6 @@
 # Chapter 2: Working with Pandas DataFrames
 
-This chapter introduces you to the `pandas` library and shows you the basics of working with `DataFrame` objects.
+This lab introduces you to the `pandas` library and shows you the basics of working with `DataFrame` objects.
 
 ## Content
 
@@ -13,5 +13,5 @@ There are six notebooks that we will work through, each numbered according to wh
 - [`5-subsetting_data.ipynb`](./5-subsetting_data.ipynb): showcases strategies for subsetting the data by rows, columns, and/or Boolean criteria
 - [`6-adding_and_removing_data.ipynb`](./6-adding_and_removing_data.ipynb): provides examples of adding additional rows/columns and removing rows/columns from a `DataFrame` object
 
-All the datasets necessary for the aforementioned notebooks, along with information on them, can be found in the [`data/`](./data) directory. The end-of-chapter exercises will use these datasets as well; solutions to the exercises can be found in the repository's [`solutions/ch_02/`](../solutions/ch_02) directory.
+All the datasets necessary for the aforementioned notebooks, along with information on them, can be found in the [`data/`](./data) directory. The end-of-lab exercises will use these datasets as well; solutions to the exercises can be found in the repository's [`solutions/ch_02/`](../solutions/ch_02) directory.
 

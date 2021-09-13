@@ -7,7 +7,7 @@ Lab 14: The Road Ahead
 =================================================
 
 
-Throughout this book, we have covered a lot of material, and you are now
+Throughout this course, we have covered a lot of material, and you are now
 capable of performing data analysis and machine learning tasks entirely
 in Python. We began our journey by learning about some introductory
 statistics and how to set up our environment for data science in Python.
@@ -77,7 +77,7 @@ Python packages
 Both `seaborn` and `scikit-learn` provide built-in
 sample datasets that you can experiment with in order to get
 more practice with the material we\'ve covered in
-the book and to try out new techniques. These datasets are often very
+the course and to try out new techniques. These datasets are often very
 clean and thus easy to work with. Once you\'re comfortable
 with the techniques, you can move on to finding
 data using the other resources that are mentioned in the following
@@ -157,13 +157,13 @@ across various topics that can be accessed through a website. Obtaining
 the data for an analysis may be as simple as downloading a CSV file or
 it may require parsing HTML with `pandas`. If you must resort
 to scraping the page (make sure you have tried
-the ways we discussed in this book first), be sure that you aren\'t
+the ways we discussed in this course first), be sure that you aren\'t
 violating the terms of use of the website.
 
 ### Finance
 
 We worked with finance data several times
-throughout this book. If you are interested in further financial
+throughout this course. If you are interested in further financial
 analysis, consult the following resources:
 
 -   **Google Finance**: <https://google.com/finance>
@@ -257,7 +257,7 @@ Practicing working with data
 ============================
 
 
-Throughout this book, we have worked with various
+Throughout this course, we have worked with various
 datasets from different sources with step-by-step instructions. It
 doesn\'t have to stop here, though. This section is dedicated to some
 resources that can be used to continue with guided instruction and,
@@ -288,13 +288,13 @@ Python practice
 ===============
 
 
-We have seen throughout this book that working with data in Python
+We have seen throughout this course that working with data in Python
 isn\'t just `pandas`, `matplotlib`, and
 `numpy`; there are many ways our workflow can benefit from us
 being strong Python programmers in general. With strong Python skills,
 we can build web applications with Flask, make requests of an API,
 efficiently iterate over combinations or permutations, and find ways to
-speed up our code. While this book didn\'t focus on honing these
+speed up our code. While this course didn\'t focus on honing these
 skills directly, here are some free resources for
 practicing with Python and thinking like a programmer:
 
@@ -331,7 +331,7 @@ including Python, data science, and machine learning. New users get a
 free month-long trial. Consider taking the *Learning the Python 3
 Standard Library* course
 (<https://www.linkedin.com/learning/learning-the-python-3-standard-library>)
-to level up your Python skills; as we saw throughout this book, a solid
+to level up your Python skills; as we saw throughout this course, a solid
 command of the standard library helps us write more concise
 and efficient code.
 
@@ -354,7 +354,7 @@ Exercises
 =========
 
 
-The exercises in this chapter are open-ended---no solutions are
+The exercises in this lab are open-ended---no solutions are
 provided. They are meant to give you some ideas so that you can get
 started on your own:
 
@@ -378,7 +378,7 @@ started on your own:
     <https://towardsdatascience.com/solving-a-data-science-challenge-the-visual-way-355cfabcb1c5>
 
 4.  Complete five challenges across any one of the sites in the *Python
-    practice* section of this chapter. For example, you can try the
+    practice* section of this lab. For example, you can try the
     following challenges:
 
     a\) *Finding two numbers that add to a specific sum exactly*:

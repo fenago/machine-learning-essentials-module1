@@ -9,4 +9,4 @@
 | `tsunamis.csv` | Data for all earthquakes in `earthquakes.csv` that were accompanied by a tsunami. |  The US Geological Survey (USGS) earthquake API. |
 
 ### Source
-Information on the US Geological Survey (USGS) earthquake API can be found [here](https://earthquake.usgs.gov/fdsnws/event/1/). In this chapter, we walk through collecting this data.
+Information on the US Geological Survey (USGS) earthquake API can be found [here](https://earthquake.usgs.gov/fdsnws/event/1/). In this lab, we walk through collecting this data.

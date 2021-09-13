@@ -1340,7 +1340,7 @@ Z-scores to this function:
 
 
 Pipes can also make it easier to write reusable code. In several of the
-code snippets in this book, we have seen the idea of passing a function
+code snippets in this course, we have seen the idea of passing a function
 into another function, such as when we pass a NumPy function to
 `apply()` and it gets executed on each column. We can use
 pipes to extend that functionality to methods of `pandas` data
@@ -2751,7 +2751,7 @@ Exercises
 =========
 
 Using the CSV files in the `exercises/` folder and what we
-have learned so far in this book, complete the following exercises:
+have learned so far in this course, complete the following exercises:
 
 1.  With the `earthquakes.csv` file, select all the
     earthquakes in Japan with a magnitude of 4.9 or greater using the
@@ -2825,7 +2825,7 @@ have learned so far in this book, complete the following exercises:
     This dataset is updated daily, but we will use a snapshot that
     contains data through September 18, 2020. Complete the following
     tasks to practice the skills you\'ve learned up to this point in the
-    book:
+    course:
 
     a\) Prepare the data:
 

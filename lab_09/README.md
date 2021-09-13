@@ -1,6 +1,6 @@
 # Chapter 4: Aggregating Pandas DataFrames
 
-This chapter teaches you how to query and merge `DataFrame` objects, perform complex operations on them, including rolling calculations and aggregations, and how to work effectively with time series data.
+This lab teaches you how to query and merge `DataFrame` objects, perform complex operations on them, including rolling calculations and aggregations, and how to work effectively with time series data.
 
 ## Content
 
@@ -18,8 +18,8 @@ There is also a **bonus** notebook that uses interactive widgets to give you a b
 -----
 
 In addition to the aforementioned notebooks, we have two additional files:
-- [`0-weather_data_collection.ipynb`](./0-weather_data_collection.ipynb): (optional) contains the code used to collect the weather data used in the chapter
+- [`0-weather_data_collection.ipynb`](./0-weather_data_collection.ipynb): (optional) contains the code used to collect the weather data used in the lab
 - [`window_calc.py`](./window_calc.py): contains a function that uses pipes to perform a variety of window calculations
 
-All the datasets necessary for the aforementioned notebooks, along with information on them, can be found in the [`data/`](./data) directory. The end-of-chapter exercises will use the datasets in the [`exercises/`](./exercises) directory; solutions to these exercises can be found in the repository's [`solutions/ch_04/`](../solutions/ch_04) directory.
+All the datasets necessary for the aforementioned notebooks, along with information on them, can be found in the [`data/`](./data) directory. The end-of-lab exercises will use the datasets in the [`exercises/`](./exercises) directory; solutions to these exercises can be found in the repository's [`solutions/ch_04/`](../solutions/ch_04) directory.
 
