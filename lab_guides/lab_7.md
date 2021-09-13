@@ -884,8 +884,8 @@ the same CSV file from GitHub:
 ```
 >>> df = pd.read_csv(
 ...     'https://github.com/fenago/'
-...     'Hands-On-Data-Analysis-with-Pandas-2nd-edition'
-...     '/blob/master/ch_02/data/earthquakes.csv?raw=True'
+...     'machine-learning-essentials-module1'
+...     '/blob/master/lab_07/data/earthquakes.csv?raw=True'
 ... )
 ```
 
@@ -899,17 +899,7 @@ we need them, some of which include the following:
 ![](./images/Figure_2.9_B16834.jpg)
 
 
-
-Throughout this course, we will be working with CSV
-files; however, note that we can use the `read_excel()`
-function to read in Excel files, the `read_json()` function
-for **JSON** (**JavaScript Object Notation**) files, and for other
-delimited files, such as tab (`\t`), we
-can use the `read_csv()` function with the `sep`
-argument equal to the delimiter.
-
-It would be remiss if we didn\'t also learn how to save our dataframe to
-a file so that we can share it with others. To write our dataframe to a
+To write our dataframe to a
 CSV file, we call its `to_csv()` method. We have to be careful
 here; if our dataframe\'s index is just row numbers, we probably don\'t
 want to write that to our file (it will have no meaning to the consumers

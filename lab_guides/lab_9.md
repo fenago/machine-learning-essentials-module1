@@ -96,13 +96,11 @@ we can easily write complicated filters instead of
 using a Boolean mask. The syntax is similar to the `WHERE`
 clause in a SQL statement. To illustrate this, let\'s query the weather
 data for all the rows where the value of the `SNOW` column was
-greater than zero for stations with `US1NY` in their station
-ID:
+greater than zero:
 
 ```
 >>> snow_data = weather.query(
 ...     'datatype == "SNOW" and value > 0 '
-...     'and station.str.contains("US1NY")'
 ... ) 
 >>> snow_data.head()
 ```
@@ -1375,7 +1373,7 @@ def window_calc(df, func, agg_dict, *args, **kwargs):
         A new `DataFrame` object.
     """
     return df.pipe(func, *args, **kwargs).agg(agg_dict)
-File:      ~/.../ch_04/window_calc.py
+File:      ~/.../lab_09/window_calc.py
 Type:      function
 ```
 

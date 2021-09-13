@@ -56,8 +56,7 @@ GitHub at
 We will be using this package throughout this lab. The directory for
 this lab in this course\'s repository has the
 `financial_analysis.ipynb` notebook we will use for our actual
-analysis and can be found at
-<https://github.com/fenago/Hands-On-Data-Analysis-with-Pandas-2nd-edition/tree/master/ch_07>.
+analysis.
 The `data/` folder contains backup files in case the data
 sources have changed since publication or there are any errors when
 collecting the data with the `StockReader` class; simply read
