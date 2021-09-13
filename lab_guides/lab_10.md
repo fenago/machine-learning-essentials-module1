@@ -1,5 +1,9 @@
- Visualizing Data with Pandas and Matplotlib
-=============================================================================
+ 
+<img align="right" src="../logo.png">
+
+
+Lab 10: Visualizing Data with Pandas and Matplotlib
+=====================================================
 
 
 So far, we have been working with data strictly in a tabular format.
@@ -77,11 +81,7 @@ import matplotlib.pyplot as plt
 ```
 
 
-Matplotlib uses the `plt.show()` function to display the
-visualization. It must be called after each visualization we create.
-When using the Python shell, it will also prevent additional code
-from being executed until the window is closed
-because it is a blocking function. In Jupyter Notebooks, we can simply
+In Jupyter Notebooks, we can simply
 use the `%matplotlib inline` **magic command** (a special
 IPython command preceded by a `%` sign) once, and our
 visualizations will be automatically displayed when the cell with our

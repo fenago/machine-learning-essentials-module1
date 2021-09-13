@@ -1,5 +1,8 @@
 
 
+<img align="right" src="../logo.png">
+
+
 **Lab  6: Regression Analysis - Part I**
 
 

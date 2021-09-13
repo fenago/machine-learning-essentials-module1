@@ -1,6 +1,7 @@
-**Lab  2: INTRODUCTION TO STATISTICS**
 
+<img align="right" src="../logo.png">
 
+#### Lab  2: INTRODUCTION TO STATISTICS
 
 
 **AIM**

@@ -1,6 +1,10 @@
 
-Financial Analysis -- Bitcoin and the Stock Market
-====================================================================================
+
+<img align="right" src="../logo.png">
+
+
+Lab 12: Financial Analysis -- Bitcoin and the Stock Market
+=============================================================
 
 Up until this point, we have been working with Python as more of a
 functional programming language. However, Python also supports

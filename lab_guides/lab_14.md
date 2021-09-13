@@ -1,5 +1,9 @@
 
-The Road Ahead
+
+<img align="right" src="../logo.png">
+
+
+Lab 14: The Road Ahead
 =================================================
 
 

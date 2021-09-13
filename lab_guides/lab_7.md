@@ -1,5 +1,8 @@
 
-Working with Pandas DataFrames
+<img align="right" src="../logo.png">
+
+
+Lab 7: Working with Pandas DataFrames
 ================================================================
 
 
@@ -44,12 +47,7 @@ and write to a database with `pandas`. Lastly, the
 exercises, and we will also walk through the creation of it during this
 lab.
 
-The accompanying code for this lab has been divided into six Jupyter
-Notebooks, which are numbered in the order they are to be used. They
-contain the code snippets we will be running throughout this lab,
-along with the full output of any command that has to be trimmed for
-this text. Each time we are to switch notebooks, the text will indicate
-to do so.
+#### Lab Notebooks
 
 In the `1-pandas_data_structures.ipynb` notebook, we will
 start learning about the main `pandas` data structures.

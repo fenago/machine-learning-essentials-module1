@@ -1,5 +1,9 @@
-Plotting with Seaborn and Customization Techniques
-====================================================================================
+<img align="right" src="../logo.png">
+
+
+Lab 11: Plotting with Seaborn and Customization Techniques
+================================================================
+
 
 In this lab, we will cover the following topics:
 
@@ -67,7 +71,7 @@ builds upon some of the formatting we will discuss in this lab.
 
 In addition, we have two Python (`.py`) files that contain
 functions we will use throughout the lab:
-`viz``.py` and `color_utils.py`. Let\'s
+`viz.py` and `color_utils.py`. Let\'s
 get started by exploring `seaborn`.
 
 Utilizing seaborn for advanced plotting

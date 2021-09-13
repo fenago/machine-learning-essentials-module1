@@ -1,4 +1,7 @@
 
+<img align="right" src="../logo.png">
+
+
 **Lab  5: Data Cleaning and Exploratory Data Analysis**
 
 Not every dataset is a perfectly curated group of observations with no missing values or anomalies. Real-world data is messy and requires cleaning and wrangling it into an acceptable format before we start the analysis. Data cleaning is an un-glamorous, but necessary part of most actual data science problems.

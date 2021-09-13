@@ -1,6 +1,10 @@
 
-Aggregating Pandas DataFrames
-===============================================================
+
+<img align="right" src="../logo.png">
+
+
+Lab 9: Aggregating Pandas DataFrames
+=====================================
 
 
 In this lab, we will continue our discussion of data wrangling by addressing the enrichment and aggregation of

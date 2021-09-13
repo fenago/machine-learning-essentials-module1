@@ -1,5 +1,9 @@
-Rule-Based Anomaly Detection
-==============================================================
+
+<img align="right" src="../logo.png">
+
+
+Lab 13: Rule-Based Anomaly Detection
+=====================================
 
 The following topics will be covered in this lab:
 

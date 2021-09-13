@@ -1,13 +1,28 @@
 
-Introduction to Data Analysis
-===============================================================
+<img align="right" src="../logo.png">
 
 
-The following topics will be covered in this lab:
+Lab 1: Introduction to Data Analysis
+=======================================
 
--   The fundamentals of data analysis
--   Statistical foundations
--   Setting up a virtual environment
+
+In this lab, we will verify packages installed in lab environment
+
+
+#### JupyterLab
+
+JupyterLab is an IDE that allows us to create Jupyter Notebooks and
+Python scripts, interact with the terminal, create
+text documents, reference documentation, and much more from a clean web
+interface on our machine.
+
+
+![](./images/Figure_1.18_B16834.jpg)
+
+
+Using the **File Browser** pane, double-click on the **lab_01** folder,
+which contains the Jupyter Notebook that we will use to validate our
+setup.
 
 
 Lab materials
@@ -38,21 +53,6 @@ in the materials for this lab, for a crash course.
 
 
 
-### JupyterLab
-
-JupyterLab is an IDE that allows us to create Jupyter Notebooks and
-Python scripts, interact with the terminal, create
-text documents, reference documentation, and much more from a clean web
-interface on our machine.
-
-
-![](./images/Figure_1.18_B16834.jpg)
-
-
-
-Using the **File Browser** pane, double-click on the **lab_01** folder,
-which contains the Jupyter Notebook that we will use to validate our
-setup.
 
 ### Validating the Environment
 
@@ -63,15 +63,6 @@ screenshot:
 
 ![](./images/Figure_1.19_B16834.jpg)
 
-
-
-**Important note:**
-
-The **kernel** is the process that runs and
-introspects our code in a Jupyter Notebook. Note that we aren\'t limited
-to running Python---we can run kernels for R, Julia, Scala, and other
-languages as well. By default, we will be running Python using the
-IPython kernel. 
 
 
 Summary
