@@ -13,18 +13,24 @@ The following topics will be covered in this lab:
 -   Using rules and baselines for anomaly detection
 
 
+#### Pre-reqs:
+- Google Chrome (Recommended)
+
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/work/machine-learning-essentials-module1/lab_13` folder. 
+
+
 Lab materials
 =================
-
 
 We will be building a simulation package to generate the data for this
 lab; it is on GitHub at
 <https://github.com/fenago/login-attempt-simulator/tree/2nd_edition>.
 This package is already installed from GitHub in the lab environment. 
 
-The repository for this lab, which can be found at
-<https://github.com/fenago/Hands-On-Data-Analysis-with-Pandas-2nd-edition/tree/master/ch_08>,
-has the notebook we will use for our actual analysis
+The folder for this lab has the notebook we will use for our actual analysis
 (`anomaly_detection.ipynb`), the data files we will be working
 with in the `logs/` folder, the data used for the simulation
 in the `user_data/` folder, and the `simulate.py`

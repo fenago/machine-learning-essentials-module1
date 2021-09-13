@@ -8,6 +8,14 @@ Not every dataset is a perfectly curated group of observations with no missing v
 
 We will understand this lab by going through a case study.
 
+#### Pre-reqs:
+- Google Chrome (Recommended)
+
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/work/machine-learning-essentials-module1/lab_05` folder. 
+
 **Case Study**
 
 Problem Definition
@@ -63,7 +71,6 @@ After removing the missing value, the remaining data in a column may be slightly
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.372.png)
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.373.png)
-####
 
 #### Imputing Missing Values
 
@@ -314,19 +321,6 @@ Using the data in the below URL,
 1) Perform multivariate analysis by grouping the data with am, gear, and cyl variables.
 
 Solutions: Refer to page 210
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 **Solutions for Assessment**

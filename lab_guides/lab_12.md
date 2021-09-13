@@ -29,6 +29,16 @@ The following topics will be covered in this lab:
 -   Performing technical analysis of financial instruments
 -   Modeling performance using historical data
 
+
+#### Pre-reqs:
+- Google Chrome (Recommended)
+
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/work/machine-learning-essentials-module1/lab_12` folder. 
+
+
 Lab materials
 =================
 

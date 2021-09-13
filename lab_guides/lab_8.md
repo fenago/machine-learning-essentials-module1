@@ -22,12 +22,18 @@ In this lab, we will cover the following topics:
 -   Reshaping data
 -   Handling duplicate, missing, or invalid data
 
+
+#### Pre-reqs:
+- Google Chrome (Recommended)
+
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/work/machine-learning-essentials-module1/lab_08` folder. 
+
 Lab materials
 =================
 
-
-The materials for this lab can be found on GitHub at
-<https://github.com/fenago/Hands-On-Data-Analysis-with-Pandas-2nd-edition/tree/master/ch_03>.
 There are five notebooks that we will work through, each numbered
 according to when they will be used, and two directories,
 `data/` and `exercises/`, which contain all the CSV

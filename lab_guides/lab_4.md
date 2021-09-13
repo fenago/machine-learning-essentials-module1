@@ -17,19 +17,14 @@ The labs for this lab include the following exercises.
 We will be working with Python3 and jupyter notebook IDE.
 
 
-Launching Jupyter notebook
+#### Pre-reqs:
+- Google Chrome (Recommended)
 
-To start THE notebook server, enter the following command in your Anaconda Prompt.
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
 
-![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.040.png)
+All examples are present in `~/work/machine-learning-essentials-module1/lab_04` folder. 
 
-After starting the notebook server, create a new notebook by clicking on new and python3.
-
-![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.130.png)
-
-Now we have our new notebook, we can start with implementation.
-
-![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.048.png)
 
 **Importing the necessary packages**
 
@@ -37,7 +32,7 @@ We always need to import the necessary packages required for the project or task
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.245.png)
 
-**Calculating probabilities using normal** **and standard normal distributions**
+**Calculating probabilities using normal** and **Standard normal distributions**
 
 **Task 1:** Generate the data that follows the normal distribution and visualize the distribution.
 

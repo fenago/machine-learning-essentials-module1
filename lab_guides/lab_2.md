@@ -31,8 +31,15 @@ The labs for this lab include the following exercises.
 
 We will be working with python3 and Jupyter IDE in this lab.
 
+#### Pre-reqs:
+- Google Chrome (Recommended)
 
-### JupyterLab
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/work/machine-learning-essentials-module1/lab_02` folder. 
+
+#### JupyterLab
 
 - Now we have launched our new notebook, we can go ahead with implementation.
 
@@ -255,56 +262,56 @@ There is a very weak negative correlation between "*mnocig*" and "*Birthweight*"
 
 1) **Which of the following are the contents of descriptive statistics?**
 
-1. Mean
-1. Median
-1. Percentile
-1. Standard Deviation
-1. All of the above
+A. Mean
+B. Median
+C. Percentile
+D. Standard Deviation
+E. All of the above
 
-1) **Select an appropriate skewness of the curve From the below image.**
+2) **Select an appropriate skewness of the curve From the below image.**
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.088.png)
 
-1. Positively Skewed
-1. Negatively skewed
-1. Symmetric
+A. Positively Skewed
+B. Negatively skewed
+C. Symmetric
 
-1) **From the below image select the appropriate relationship between the 2 variables:**
+3) **From the below image select the appropriate relationship between the 2 variables:**
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.089.png)
 
-1. Negative Relationship
-1. Positive Relationship
-1. No Relationship
+A. Negative Relationship
+B. Positive Relationship
+C. No Relationship
 
 
 
-1) **The value of Correlation between  two continuous variables lies between:**
+4) **The value of Correlation between two continuous variables lies between:**
 
-1. 1 to 100
-1. 0 to  1
-1. -∞ to +∞
-1. -1 to 1
+A. 1 to 100
+B. 0 to  1
+C. -∞ to +∞
+D. -1 to 1
 
 
-1) **Which of the following statements are true?**
+5) **Which of the following statements are true?**
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.090.png)
 
-1. All of the students are less than 17 years old		
-1. Atleast75% of the students are 10 years old or older
-1. There is only one 16 year old at the party
-1. The youngest kid is 7 years old
-1. Exactly half the kids are older than 13
+A. All of the students are less than 17 years old		
+B. Atleast75% of the students are 10 years old or older
+C. There is only one 16 year old at the party
+D. The youngest kid is 7 years old
+E. Exactly half the kids are older than 13
 
 
 **Fill in the spaces with appropriate answers**
 
 1) The method used to measure the spread of the data is \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.?
-1) \_\_\_\_\_\_\_\_\_\_\_\_\_\_ is the robust visualization used to identify the outliers in the data.
-1) Mean=Median=Mode in \_\_\_\_\_\_\_\_\_\_\_\_ distribution.
-1) 4 different data measurement scales are\_\_\_\_\_\_\_\_\_\_\_, \_\_\_\_\_\_\_\_\_\_,   \_\_\_\_\_\_\_\_\_\_\_, \_\_\_\_\_\_\_\_\_\_.
-1) The 50th Percentile is also known as \_\_\_\_\_\_\_\_\_\_.
+2) \_\_\_\_\_\_\_\_\_\_\_\_\_\_ is the robust visualization used to identify the outliers in the data.
+3) Mean=Median=Mode in \_\_\_\_\_\_\_\_\_\_\_\_ distribution.
+4) 4 different data measurement scales are\_\_\_\_\_\_\_\_\_\_\_, \_\_\_\_\_\_\_\_\_\_,   \_\_\_\_\_\_\_\_\_\_\_, \_\_\_\_\_\_\_\_\_\_.
+5) The 50th Percentile is also known as \_\_\_\_\_\_\_\_\_\_.
 
 **Programming Assignment** 
 
@@ -314,37 +321,9 @@ Using the data in the below URL,
 
 By referring to the code used in the case study, perform the following tasks:
 
-1) Find the distribution of ‘**fnocig’** (Number of cigarettes smoked per day by father) variable.
+1) Find the distribution of **fnocig** (Number of cigarettes smoked per day by father) variable.
 
-1) Find the correlation between ‘**Birthweight’** and ‘**fnocig’** variables.
-
-
-
-
-**Solutions:** Refer to pages 44 - 45
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+2) Find the correlation between **Birthweight** and **fnocig** variables.
 
 
 
@@ -365,10 +344,10 @@ By referring to the code used in the case study, perform the following tasks:
 **Fill in the spaces with appropriate answers:**
 
 1) Measure of Variability (Spread / Dispersion)
-1) Boxplot
-1) Symmetric
-1) Nominal, Ordinal, Interval, and Ratio
-1) Median
+2) Boxplot
+3) Symmetric
+4) Nominal, Ordinal, Interval, and Ratio
+5) Median
 
 **Programming Assignment Solution**
 
@@ -379,11 +358,5 @@ Task 1)
 Task 2) 
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.092.png)
-
-
-
-
-
-
 
 

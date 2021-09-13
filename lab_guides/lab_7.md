@@ -3,7 +3,7 @@
 
 
 Lab 7: Working with Pandas DataFrames
-================================================================
+========================================
 
 
 The time has come for us to begin our journey into the
@@ -19,15 +19,20 @@ performing when conducting our data analyses with `pandas`. The following topics
     filtering
 -   Adding and removing data
 
+
+#### Pre-reqs:
+- Google Chrome (Recommended)
+
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/work/machine-learning-essentials-module1/lab_07` folder. 
+
+
 Lab materials
 =================
 
-
-The files we will be working with in this lab can be found in the
-GitHub repository at
-<https://github.com/fenago/Hands-On-Data-Analysis-with-Pandas-2nd-edition/tree/master/ch_02>.
-We will be working with earthquake data from the **US Geological
-Survey** (**USGS**) by using the USGS API and CSV files, which can be
+We will be working with earthquake data from the **US Geological Survey** (**USGS**) by using the USGS API and CSV files, which can be
 found in the `data/` directory.
 
 There are four CSV files and a SQLite database file, all of which will
@@ -66,39 +71,7 @@ ways to select and filter data. Finally, we will learn how to add and
 remove data in the `6-adding_and_removing_data.ipynb`
 notebook. Let\'s get started.
 
-Pandas data structures
-======================
 
-
-Python has several data structures already, such as tuples, lists, and
-dictionaries. Pandas provides two main structures
-to facilitate working with data: `Series` and
-`DataFrame`. The `Series` and `DataFrame`
-data structures each contain another `pandas` data structure,
-`Index`, that we must also be aware of. However, in order to
-understand these data structures, we need to first take a look at NumPy
-(<https://numpy.org/doc/stable/>), which provides the n-dimensional
-arrays that `pandas` builds upon.
-
-The aforementioned data structures are implemented as Python
-**classes**; when we actually create one, they are referred to as
-**objects** or **instances**. This is an important distinction, since,
-as we will see, some actions can be performed using the object itself (a
-**method**), whereas others will require that we pass our object in as
-an argument to some **function**. Note that, in Python, class names are
-traditionally written in `CapWords`, while objects are written
-in `snake_case`. (More Python style guidelines can be found at
-<https://www.python.org/dev/peps/pep-0008/>.)
-
-We use a `pandas` function to read a CSV file into an object
-of the `DataFrame` class, but we use methods on our
-`DataFrame` objects to perform actions on them, such as
-dropping columns or calculating summary statistics. With
-`pandas`, we will often want to access the **attributes** of
-the object we are working with. This won\'t generate an action as a
-method or function would; rather, we will be given information about our
-`pandas` object, such as dimensions, column names, data types,
-and whether it is empty.
 
 **Important note:**
 
@@ -166,8 +139,7 @@ different data types per row: four strings, a float, and an integer.
 Unfortunately, this means that we can\'t take advantage of the
 performance improvements NumPy provides for single data type objects.
 
-Say we want to find the maximum magnitude---we can use a **list
-comprehension** (<https://www.python.org/dev/peps/pep-0202/>) to select
+Say we want to find the maximum magnitude --- we can use a **list comprehension** to select
 the third index of each row, which is represented as a
 `numpy.void` object. This makes a list, meaning that we can
 take the maximum using the `max()` function. We can use the
@@ -188,18 +160,8 @@ Note that we should use a list comprehension whenever we would write a
 operation against the members of some initial list. This is a rather
 simple list comprehension, but we can make them more complex with the
 addition of `if...else` statements. List comprehensions are an
-extremely powerful tool to have in our arsenal. More information can be
-found in the Python documentation at
-https://docs.python.org/3/tutorial/datastructures.html\#list-comprehensions.
+extremely powerful tool to have in our arsenal.
 
-**Tip:** 
-
-**IPython** (<https://ipython.readthedocs.io/en/stable/index.html>)
-provides an interactive shell for Python. Jupyter
-Notebooks are built on top of IPython. While knowledge of IPython is not
-required for this course, it can be helpful to be familiar with some of
-its functionality. IPython includes a tutorial in their documentation at
-<https://ipython.readthedocs.io/en/stable/interactive/>.
 
 If we create a NumPy array for each column
 instead, this operation is much easier (and more efficient) to perform.
@@ -967,39 +929,11 @@ write our data; the reading functions create the `pandas`
 objects that we want to work with, but the writing methods are actions
 that we take using the `pandas` object.
 
-**Tip:** 
-
-The preceding file paths to read from and write to were **relative** to
-our **current directory**. The current directory is where we are running
-our code from. An **absolute** path will be the full path to the file.
-For example, if the file we want to work with has an absolute path of
-`/home/myuser/learning/hands_on_pandas/data.csv` and our
-current directory is `/home/myuser/learning/hands_on_pandas`,
-then we can simply use the relative path of `data.csv` as the
-file path.
-
-Pandas provides us with capabilities to read and
-write from many other data sources, including databases, which we will
-discuss next; pickle files (containing serialized Python objects---see
-the *Further reading* section for more information); and HTML pages. Be
-sure to check out the following resource in the `pandas`
-documentation for the full list of capabilities:
-<https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html>.
 
 
 
 From a database
 ---------------
-
-Pandas can interact with SQLite databases without the need for us to
-install any additional packages; however, the
-SQLAlchemy package needs to be installed in order to interact with other
-database flavors. Interaction with a SQLite database can be achieved by
-opening a connection to the database using the `sqlite3`
-module in the Python standard library and then using either the
-`pd.read_sql()` function to query the database or the
-`to_sql()` method on a `DataFrame` object to write
-it to the database.
 
 Before we read from a database, let\'s write to one. We simply call
 `to_sql()` on our dataframe, telling it which table to write
@@ -1046,33 +980,8 @@ We now have the tsunamis data in a dataframe:
 ![](./images/Figure_2.10_B16834.jpg)
 
 
-
-**Important note:**
-
-The `connection` object we created in both code blocks is an
-example of a **context manager**, which, when used
-with the `with` statement, automatically handles cleanup after
-the code in the block executes (closing the connection, in this case).
-This makes cleanup easy and makes sure we don\'t leave any loose ends.
-Be sure to check out `contextlib` from the standard library
-for utilities using the `with` statement and context managers.
-The documentation is at
-<https://docs.python.org/3/library/contextlib.html>.
-
-
-
 From an API
 -----------
-
-We can now easily create `Series` and `DataFrame`
-objects from data we have in Python or from files
-we obtain, but how can we get data from online
-resources, such as APIs? There is no guarantee that each data source
-will give us data in the same format, so we must remain flexible in our
-approach and be comfortable examining the data source to find the
-appropriate import method. In this section, we will request some
-earthquake data from the USGS API and see how we can make a dataframe
-out of the result.
 
 For this section, we will be working in the
 `3-making_dataframes_from_api_requests.ipynb` notebook, so we
@@ -1107,15 +1016,6 @@ range, since the API won\'t have complete information for today yet:
 >>> response = requests.get(api, params=payload)
 ```
 
-
-**Important note:**
-
-`GET` is an HTTP method. This action tells the server we want
-to read some data. Different APIs may require that we use different
-methods to get the data; some will require a `POST` request,
-where we authenticate with the server. You can read more about API
-requests and HTTP methods at
-<https://nordicapis.com/ultimate-guide-to-all-9-standard-http-methods/>.
 
 Before we try to create a dataframe out of this, we should make sure
 that our request was successful. We can do this by checking the
@@ -1295,16 +1195,6 @@ Index(['alert', 'cdi', 'code', 'detail', 'dmin', 'felt', 'gap',
 ```
 
 
-**Important note:**
-
-Having a list of columns doesn\'t necessarily mean that we know what all
-of them mean. Especially in cases where our data comes from the
-Internet, be sure to read up on what the columns mean before drawing any
-conclusions. Information on the fields in the `geojson`
-format, including what each field in the JSON payload means (along with
-some example values), can be found on the USGS website at
-<https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php>.
-
 We know the dimensions of our data, but what does
 it actually look like? For this task, we can use the `head()`
 and `tail()` methods to look at the top and bottom rows,
@@ -1338,18 +1228,6 @@ The following is the result:
 ![](./images/Figure_2.12_B16834.jpg)
 
 
-
-**Tip:** 
-
-By default, when we print dataframes with many columns in a Jupyter
-Notebook, only a subset of them will be displayed. This is because
-`pandas` has a limit on the number of columns it will show. We
-can modify this behavior using
-`pd.set_option('display.max_columns', <new_value>)`. Consult
-the documentation at
-<https://pandas.pydata.org/pandas-docs/stable/user_guide/options.html>
-for additional information. The notebook also contains a few example
-commands.
 
 We can use the `dtypes` attribute to see
 the data types of the columns, which makes it easy to see when columns
@@ -2498,14 +2376,6 @@ allows us to create a column with the result of
 
 ![](./images/Figure_2.36_B16834.jpg)
 
-
-**Tip:** 
-
-When working with `pandas`, it\'s crucial to get comfortable
-with `lambda` functions, as they can be used with much of the
-functionality available and will dramatically improve the quality and
-readability of the code. Throughout this course, we will see various
-places where `lambda` functions can be used.
 
 Now that we have seen how to add new columns,
 let\'s take a look at adding new rows. Say we were working with two

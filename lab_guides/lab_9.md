@@ -6,19 +6,6 @@
 Lab 9: Aggregating Pandas DataFrames
 =====================================
 
-
-In this lab, we will continue our discussion of data wrangling by addressing the enrichment and aggregation of
-data. This includes essential skills, such as merging dataframes,
-creating new columns, performing window calculations, and aggregating by
-group membership. Calculating aggregations and summaries will help us
-draw conclusions about our data.
-
-We will also take a look at the additional functionality
-`pandas` has for working with time series data, beyond the
-time series slicing we introduced in previous labs, including how we
-can roll up the data with aggregation and select it based on the time of
-day.
-
 The following topics will be covered in this lab:
 
 -   Performing database-style operations on DataFrames
@@ -26,12 +13,18 @@ The following topics will be covered in this lab:
 -   Aggregating data
 -   Working with time series data
 
+
+#### Pre-reqs:
+- Google Chrome (Recommended)
+
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/work/machine-learning-essentials-module1/lab_09` folder. 
+
 Lab materials
 =================
 
-
-The materials for this lab can be found on GitHub at
-<https://github.com/fenago/Hands-On-Data-Analysis-with-Pandas-2nd-edition/tree/master/ch_04>.
 There are four notebooks that we will work through, each numbered
 according to when they will be used. The text will prompt you to switch.
 We will begin with the `1-querying_and_merging.ipynb` notebook
@@ -55,8 +48,7 @@ additional capabilities `pandas` provides when working with
 time series data in the `4-time_series.ipynb` notebook. Note
 that we will not go over the `0-weather_data_collection.ipynb`
 notebook; however, for those interested, it contains the code that was
-used to collect the data from the **National Centers for Environmental
-Information** (**NCEI**) API, which can be found at
+used to collect the data from the **National Centers for Environmental Information** (**NCEI**) API, which can be found at
 <https://www.ncdc.noaa.gov/cdo-web/webservices/v2>.
 
 Throughout this lab, we will use a variety of datasets, which can be

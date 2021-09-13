@@ -14,12 +14,19 @@ our natural next step is learning how to visualize our data. In this lab, we wil
 -   Plotting with pandas
 -   The pandas.plotting module
 
+
+#### Pre-reqs:
+- Google Chrome (Recommended)
+
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/work/machine-learning-essentials-module1/lab_10` folder. 
+
+
 Lab materials
-=================
+==============
 
-
-The materials for this lab can be found on GitHub at
-<https://github.com/fenago/Hands-On-Data-Analysis-with-Pandas-2nd-edition/tree/master/ch_05>.
 We will be working with three datasets, all of which can be found in the
 `data/` directory. In the `fb_stock_prices_2018.csv`
 file, we have the daily opening, high, low, and closing prices of

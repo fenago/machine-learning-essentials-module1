@@ -11,12 +11,19 @@ In this lab, we will cover the following topics:
 -   Formatting plots with matplotlib
 -   Customizing visualizations
 
+
+#### Pre-reqs:
+- Google Chrome (Recommended)
+
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/work/machine-learning-essentials-module1/lab_11` folder. 
+
+
 Lab materials
 =================
 
-
-The materials for this lab can be found on GitHub at
-<https://github.com/fenago/Hands-On-Data-Analysis-with-Pandas-2nd-edition/tree/master/ch_06>.
 We will be working with three datasets once again, all of which can be
 found in the `data/` directory. In the
 `fb_stock_prices_2018.csv` file, we have Facebook\'s stock

@@ -17,21 +17,14 @@ The labs for this lab include the following exercises:
 
 We will be working with python3 and the jupyter notebook IDE.
 
+#### Pre-reqs:
+- Google Chrome (Recommended)
 
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
 
-Launching Jupyter notebook
+All examples are present in `~/work/machine-learning-essentials-module1/lab_03` folder. 
 
-To start the notebook server, enter the following command in your Anaconda Prompt.
-
-![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.040.png)
-
-After starting the notebook serve, create a new notebook by clicking on new and python3.
-
-![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.130.png)
-
-Now we have our new notebook, we can go ahead with the implementation.
-
-![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.048.png)
 
 **Importing the necessary packages**
 

@@ -6,6 +6,14 @@
 **Lab  6: Regression Analysis - Part I**
 
 
+#### Pre-reqs:
+- Google Chrome (Recommended)
+
+#### Lab Environment
+Notebooks are ready to run. All packages have been installed. There is no requirement for any setup.
+
+All examples are present in `~/work/machine-learning-essentials-module1/lab_06` folder. 
+
 **Problem Statement**
 
 This data is about the amount spent on advertising certain products through various media channels like TV, radio, and newspaper. The goal is to predict how the expense on each channel affects the sales and is there a way to optimize the sales?
