@@ -69,12 +69,6 @@ how to add reference lines, shade regions, include annotations, and
 customize our visualizations. The text will prompt us when to switch
 notebooks.
 
-**Tip:** 
-
-The supplementary `covid19_cases_map.ipynb` notebook walks
-through an example of plotting data on a map using COVID-19 cases
-worldwide. It can be used to get started with maps in Python and also
-builds upon some of the formatting we will discuss in this lab.
 
 In addition, we have two Python (`.py`) files that contain
 functions we will use throughout the lab:
@@ -1797,13 +1791,6 @@ midpoint of the `ocean` colormap to use with the
 (0.0, 0.2529411764705882, 0.5019607843137255, 1.0)
 ```
 
-
-**Tip:** 
-
-There\'s an example of using a colormap as a callable in the
-`covid19_cases_map.ipynb` notebook, where COVID-19 case counts
-are mapped to colors, with darker colors indicating more cases.
-
 Despite the wealth of colormaps available, we may find the need to
 create our own. Perhaps we have a color palette we like to work with or
 have some requirement that we use a specific color scheme. We can make
@@ -1958,9 +1945,7 @@ def draw_cmap(cmap, values=np.array([[0, 1]]), **kwargs):
 
 
 This function makes it easy for us to add a
-colorbar with a custom colormap for any visualization we choose; the
-`covid19_cases_map.ipynb` notebook has an example using
-COVID-19 cases plotted on a world map. For now, let\'s use these
+colorbar with a custom colormap for any visualization we choose. Let\'s use these
 functions to create and visualize our colormap. We will be using them by
 importing the module (which we did earlier):
 
@@ -1978,15 +1963,6 @@ This results in the following colorbar showing our colormap:
 ![](./images/fig_6.39.jpg)
 
 
-
-**Tip:** 
-
-Seaborn also provides additional color palettes, along with handy
-utilities for picking colormaps and making custom ones for use with
-`matplotlib` interactively in a Jupyter Notebook. Check out
-the *Choosing color palettes* tutorial
-(<https://seaborn.pydata.org/tutorial/color_palettes.html>) for more
-information. The notebook also contains a short example.
 
 As we have seen in the colorbar we created, these colormaps have the
 ability to show different gradients of the colors to capture values on a
@@ -2049,11 +2025,6 @@ widths, and more to cycle through.
 
 ### Conditional coloring
 
-Colormaps make it easy to vary color according to the values in our
-data, but what happens if we only want to use a
-specific color when certain conditions are met? In that case, we need to
-build a function around color selection.
-
 We can write a generator to determine plot color based on our data and
 only calculate it when it is asked for. Let\'s say we wanted to assign
 colors to years from 1992 to 200018 (no, that\'s not a typo) based on
@@ -2080,11 +2051,7 @@ def color_generator():
 
 **Important note:**
 
-The **modulo operator** (%) returns the remainder
-of a division operation. For example, 4 % 2 equals 0 because 4 is
-divisible by 2. However, since 4 is not divisible by 3, 4 % 3 is
-non-zero; it is 1 because we can fit 3 into 4 once and will have 1 left
-over (4 - 3). The modulo operator can be used to check the divisibility
+The modulo operator can be used to check the divisibility
 of one number by another and is often used to check whether a number is
 odd or even. Here, we are using it to see whether the conditions for
 being a leap year (which depend on divisibility) are met.

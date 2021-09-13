@@ -10,9 +10,6 @@ There are three notebooks that we will work through, each numbered according to 
 - [`2-formatting_plots.ipynb`](./2-formatting_plots.ipynb): covers formatting and labeling plots
 - [`3-customizing_visualizations.ipynb`](./3-customizing_visualizations.ipynb): provides some exposure to plot customizations including reference lines, annotations, and custom colormaps
 
------
-
-There is also a **bonus** notebook that walks through an example of plotting data on a map using COVID-19 cases worldwide: [`covid19_cases_map.ipynb`](./covid19_cases_map.ipynb). It can be used to get started with maps in Python and also builds upon some of the formatting discussed in the lab.
 
 -----
 
