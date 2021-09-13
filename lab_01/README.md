@@ -1,4 +1,4 @@
-# Chapter 1: Introduction to Data Analysis
+# Lab 1: Introduction to Data Analysis
 
 This lab will teach you the fundamentals of data analysis, give you a foundation in statistics, and get your environment set up for working with data in Python and using Jupyter Notebooks.
 

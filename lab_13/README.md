@@ -1,4 +1,4 @@
-# Chapter 8: Rule-Based Anomaly Detection
+# Lab 8: Rule-Based Anomaly Detection
 
 This lab covers [simulating data](https://github.com/fenago/login-attempt-simulator) and applying everything learned in labs 1-6 to catching hackers attempting to authenticate to a website, using rule-based strategies for anomaly detection.
 

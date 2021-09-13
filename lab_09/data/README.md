@@ -2,8 +2,8 @@
 
 | File | Description | Source |
 | --- | --- | --- |
-| `dirty_data.csv` | Dirty weather data from the *Handling duplicate, missing, or invalid data* section in *Chapter 3, Data Wrangling with Pandas* | Adapted from the NCEI API's GHCND dataset |
-| `fb_2018.csv` | Facebook stock's opening, high, low, and closing price daily, along with volume traded for 2018. | The `stock_analysis` package (see *Chapter 7, Financial Analysis &ndash; Bitcoin and the Stock Market*). |
+| `dirty_data.csv` | Dirty weather data from the *Handling duplicate, missing, or invalid data* section in *Lab 3, Data Wrangling with Pandas* | Adapted from the NCEI API's GHCND dataset |
+| `fb_2018.csv` | Facebook stock's opening, high, low, and closing price daily, along with volume traded for 2018. | The `stock_analysis` package (see *Lab 7, Financial Analysis &ndash; Bitcoin and the Stock Market*). |
 | `fb_week_of_may_20_per_minute.csv` | Facebook stock's opening, high, low, and closing price per minute, along with volume traded for May 20, 2019 through May 24, 2019. | Nasdaq |
 | `melted_stock_data.csv` | The contents of `fb_week_of_may_20_per_minute.csv` melted into a single column for the price and another for the timestamp. | Adapted from Nasdaq |
 | `nyc_weather_2018.csv` | Long format weather data for New York City across various stations. | The NCEI API's GHCND dataset. |
@@ -15,4 +15,4 @@
 ### Sources
 - The Nasdaq data contains stock data by the minute and was collected before Nasdaq updated their website. The old site will be shut down soon, but while it is still active, the data can be found here: [FB](https://old.nasdaq.com/symbol/fb/interactive-chart), [AAPL](https://old.nasdaq.com/symbol/aapl/interactive-chart). Note that the Apple data was collected prior to the [August 2020 stock split](https://www.marketwatch.com/story/3-things-to-know-about-apples-stock-split-2020-08-28). Additional data can be found on the new [Nasdaq website](https://www.nasdaq.com/market-activity/stocks). 
 - The National Centers for Environmental Information (NCEI) provides an [API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2), which we use to access the [*Global Historical Climatology Network - Daily* (GHCND) dataset](https://www1.ncdc.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf).
-- The [`stock_analysis`](https://github.com/fenago/stock-analysis) package contains easy to use interfaces for basic technical analysis of stocks. We will walk through the construction of this package in *Chapter 7, Financial Analysis &ndash; Bitcoin and the Stock Market*.
+- The [`stock_analysis`](https://github.com/fenago/stock-analysis) package contains easy to use interfaces for basic technical analysis of stocks. We will walk through the construction of this package in *Lab 7, Financial Analysis &ndash; Bitcoin and the Stock Market*.

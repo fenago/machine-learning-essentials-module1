@@ -1890,8 +1890,6 @@ this point in this course. Use the data from this lab\'s
     cases in Brazil, China, India, Italy, Spain, and the USA:
 
     a\) First, use the `diff()` method that was introduced in
-    the *Working with time series data* section of [*Chapter
-    4*](https://subscription.packtpub.com/course/data/9781800563452/6),
     *Aggregating Pandas DataFrames*, to calculate the day-over-day
     change in new cases. Then, use `rolling()` to calculate
     the 14-day moving average.
@@ -1905,10 +1903,7 @@ this point in this course. Use the data from this lab\'s
 
     a\) The first subplot will contain a line plot of the daily
     difference between that day\'s opening price and the prior day\'s
-    closing price (be sure to review the *Working with time series data*
-    section of [*Chapter
-    4*](https://subscription.packtpub.com/course/data/9781800563452/6),
-    *Aggregating Pandas DataFrames*, for an easy way to do this).
+    closing price.
 
     b\) The second subplot will be a bar plot showing the net effect
     this had monthly, using `resample()`.

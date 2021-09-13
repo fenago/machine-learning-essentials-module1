@@ -1,4 +1,4 @@
-# Chapter 2: Working with Pandas DataFrames
+# Lab 2: Working with Pandas DataFrames
 
 This lab introduces you to the `pandas` library and shows you the basics of working with `DataFrame` objects.
 

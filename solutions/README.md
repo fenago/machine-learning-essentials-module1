@@ -1,4 +1,4 @@
-# Solutions to End-of-Chapter Exercises
+# Solutions to End-of-Lab Exercises
 
 The end-of-lab exercises provide you an opportunity to practice the concepts covered up to that point in the course. Since the labs build upon previous onces, it is recommended that you work through the exercises before moving on to solidify the concepts. 
 

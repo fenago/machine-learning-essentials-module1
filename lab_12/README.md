@@ -1,4 +1,4 @@
-# Chapter 7: Financial Analysis &ndash; Bitcoin and the Stock Market
+# Lab 7: Financial Analysis &ndash; Bitcoin and the Stock Market
 
 This lab walks you through the creation of the [`stock_analysis`](https://github.com/fenago/stock-analysis) Python package, building upon everything learned in labs 1-6 and applying it to a financial application.
 

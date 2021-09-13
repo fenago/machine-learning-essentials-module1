@@ -1,4 +1,4 @@
-# Chapter 4: Aggregating Pandas DataFrames
+# Lab 4: Aggregating Pandas DataFrames
 
 This lab teaches you how to query and merge `DataFrame` objects, perform complex operations on them, including rolling calculations and aggregations, and how to work effectively with time series data.
 

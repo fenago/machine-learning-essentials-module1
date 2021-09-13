@@ -1,4 +1,4 @@
-# Chapter 5: Visualizing Data with Pandas and Matplotlib
+# Lab 5: Visualizing Data with Pandas and Matplotlib
 
 This lab shows you how to create your own data visualizations in Python, first using the `matplotlib` library, and then directly from `pandas` objects.
 

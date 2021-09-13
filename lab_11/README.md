@@ -1,4 +1,4 @@
-# Chapter 6: Plotting with Seaborn and Customization Techniques
+# Lab 6: Plotting with Seaborn and Customization Techniques
 
 This lab continues the discussion on data visualization by teaching you how to use the `seaborn` library for visualizing your long form data and giving you the tools you need to customize your visualizations, making them presentation-ready.
 

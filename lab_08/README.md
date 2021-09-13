@@ -1,4 +1,4 @@
-# Chapter 3: Data Wrangling with Pandas
+# Lab 3: Data Wrangling with Pandas
 
 In this lab, we discuss the process of data manipulation, learn how to explore an API to gather data, and perform data cleaning and reshaping with `pandas`.
 
