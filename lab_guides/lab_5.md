@@ -1,24 +1,7 @@
 
 **Lab  5: Data Cleaning and Exploratory Data Analysis**
 
-**Theory**
-
-In the previous lab, we learned the analysis of variance. In this lab, we will be working with data cleaning and the exploration to gain some meaningful insights into the data.
-
-**Data Cleaning and Data Wrangling**
-
-**Data cleaning or data cleansing is the process of detecting and correcting (or removing) corrupt or inaccurate records from a record of set, table or database.**
-
-**The process on the raw data that makes it “*clean*” enough to input to our analytical algorithm is called data wrangling**
-![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.362.png)
-
-
-
-
-
-
-
-Contrary to the common perception of the data we have handled in this course so far, , not every dataset is a perfectly curated group of observations with no missing values or anomalies. Real-world data is messy and requires cleaning and wrangling it into an acceptable format before we start the analysis. Data cleaning is an un-glamorous, but necessary part of most actual data science problems.
+Not every dataset is a perfectly curated group of observations with no missing values or anomalies. Real-world data is messy and requires cleaning and wrangling it into an acceptable format before we start the analysis. Data cleaning is an un-glamorous, but necessary part of most actual data science problems.
 
 We will understand this lab by going through a case study.
 
@@ -46,7 +29,7 @@ We should at least understand the **Energy Star score**, which is described as:
 
 A 1-to-100 percentile ranking based on the self-reported energy usage for the reporting year. The **Energy Star score** is a relative measure employed for comparing the energy efficiency of the buildings. 
 
-That clears up the first problem about data. However, we have another issue about the missing values in the data, which are encoded as “Not Available”. This is a “string” in Python which means that even the columns with numbers will be stored as “object” data types because Pandas converts a column with any string into a column of all strings. We can obtain the data types of the columns using the following command
+That clears up the first problem about data. However, we have another issue about the missing values in the data, which are encoded as "Not Available". This is a "string" in Python which means that even the columns with numbers will be stored as "object" data types because Pandas converts a column with any string into a column of all strings. We can obtain the data types of the columns using the following command
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.365.png)
 
@@ -54,21 +37,13 @@ That clears up the first problem about data. However, we have another issue abou
 
 As expected, some of the columns that clearly contain numbers (such as ft2), are stored as objects. We can’t do numerical analysis on the strings, so these columns need to be converted to number (specially float) data types before any analysis can be performed!
 
-Here is a little Python code that replaces all the “*Not Available*” entries with ‘*not a number’* (np.nan), which can be interpreted as numbers, and then convert the relevant columns to the *float* data type.
+Here is a little Python code that replaces all the "*Not Available*" entries with ‘*not a number’* (np.nan), which can be interpreted as numbers, and then convert the relevant columns to the *float* data type.
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.367.png)
 
 Once the correct columns have numbers, we can start to statistically analyze the data.
 
 **Missing Values**
-
-**Missing data (or missing values) is defined as the data values that are not stored for a variable in the observation of interest.**
-![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.368.png)
-
-
-
-
-In addition to incorrect data types, missing values is another common problem when dealing with real-world data. These can arise for many reasons and have to be either filled in or removed before we train a machine learning model to analyse the data. 
 
 First, let’s get a sense of how many missing values are there in each column.
 
@@ -97,7 +72,7 @@ To do this, first, we need to subset the categorical and numerical variables for
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.374.png)
 
-In the following code, we create a *Scikit-Learn* Imputer object with the strategy set to “median” (numeric variable) and “*most\_frequent*” (categorical variables) number. Subsequently, we then train this object on the numeric and category data (using *imputer.fit*) and use it to fill in the missing values in both the numeric and category data (using *imputer.transform*). This means that the missing values in the numeric and category data are filled with the corresponding median and mode values.
+In the following code, we create a *Scikit-Learn* Imputer object with the strategy set to "median" (numeric variable) and "*most\_frequent*" (categorical variables) number. Subsequently, we then train this object on the numeric and category data (using *imputer.fit*) and use it to fill in the missing values in both the numeric and category data (using *imputer.transform*). This means that the missing values in the numeric and category data are filled with the corresponding median and mode values.
 
 Import the *Scikit-Learn* package before we start the imputation process.
 
@@ -119,39 +94,10 @@ We can see that there are no null values present in the data set.
 
 **Note:** Theoretically, up to 25 to 30% is the maximum number of missing values in a data set. If the number of missing values is higher,  we might want to drop the variable from analysis. However, this rule varies in practice. At times we have a dataset with the ~50% of missing values but still, the customer insists to use it for analysis. In such cases for practical purposes, we treat the dataset on case to case basis.
 
-**Outliers**
-
-**Outliers are the observations that lie at an abnormal distance from the other values in a random sample taken from a population.**
-![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.380.png)
 
 
-
-
-
-At this point, we may also want to remove outliers. However, we have to be careful not to throw away measurements just because they look strange. This is important because the measurements may be the result of actual phenomena that require further investigation. When removing outliers, I try to be as conservative as possible, using the definition of an extreme outlier:
-
-On the low end, an extreme outlier is below **Q1 – 3 \* IQR**
-
-On the high end, an extreme outlier is above **Q3 + 3 \* IQR**
-
-An outlier in a dataset can also be due to typos in data entry, mistakes in units, or in rare cases they could be legitimate but extreme values.
-
-Now that the tedious --- but necessary --- step of data cleaning is complete, we can move on to explore our data!
-
-**Exploratory Data Analysis (EDA)**
-
-**Exploratory data analysis is an open-ended process, where we perform statistics and make figures to find trends, anomalies, patterns or relationships within the given data.**
-
-![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.381.png)
-
-
-
-
-In short, the goal of EDA is to learn what our data can tell us. Usually, the EDA starts  with a general overview, which is then gradually narrowed to specific areas as we find interesting trends and parts in the data. The findings may be interesting in their own right, or they can be used to select our modeling choices, such as by helping us to decide which features to use for further analysis.
 
 **Univariate analysis (Single variable plots)**
-
-A single variable (called univariate) plot shows the distribution of a single variable such as in a histogram.
 
 The goal is to predict the Energy Star score (Renamed to score in our data), so a reasonable place to start the analysis is to exam the distribution of this variable. A histogram is a simple yet effective way to visualize the distribution of a single variable and is easy to make using *matplotlib*. 
 
@@ -160,11 +106,6 @@ The goal is to predict the Energy Star score (Renamed to score in our data), so 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.383.png)
 
 This graph looks quite suspicious! The Energy Star score is a percentile rank, which means that we would expect to observe a uniform distribution, with each score assigned to the same number of buildings. However, a disproportionate number of buildings have either the highest, 100, or the lowest, 1, score (higher is better for the Energy Star score).
-
-If we look back at the definition of the score, we observe that it is based on “*self-reported energy usage*” which might explain the very high scores. Asking the building owners to report their own energy usage is like asking the students to report their own scores on a test. Consequently, this probably is not the most objective measure of a building’s energy efficiency.
-
-If we had an unlimited amount of time, we might want to investigate the reasons behind very high and very low scores in several buildings in our dataset. However, our objective is only to predict the score and not to devise a better method of scoring buildings. We can make a note in our report that the scores have a suspect distribution, but our main focus is on predicting the score using the statistics.
-
 
 
 Let us look at the distribution of the ‘*site EUI*’ variable.
@@ -271,7 +212,7 @@ Using the seaborn PairGrid function, we can map different plots for the three as
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.409.png)
 
-Here, we observe that all the three variables have a negative correlation with our target variable “Score”. 
+Here, we observe that all the three variables have a negative correlation with our target variable "Score". 
 
 We also utilize the heat map to visualize the correlation between the continuous variables.
 

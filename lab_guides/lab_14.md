@@ -345,6 +345,41 @@ your GitHub account as your data portfolio.
 
 
 ![](./images/Figure_12.1_B16834.jpg)
-:::
 
+Exercises
+=========
+
+
+The exercises in this chapter are open-ended---no solutions are
+provided. They are meant to give you some ideas so that you can get
+started on your own:
+
+1.  Practice machine learning classification by participating in the
+    Titanic challenge on Kaggle at <https://www.kaggle.com/c/titanic>.
+
+2.  Practice machine learning regression techniques by participating in
+    the housing prices challenge on Kaggle at
+    <https://www.kaggle.com/c/house-prices-advanced-regression-techniques>.
+
+3.  Perform an analysis on something that interests you. Some
+    interesting ideas include the following:
+
+    a\) *Predicting likes on Instagram*:
+    <https://towardsdatascience.com/predict-the-number-of-likes-on-instagram-a7ec5c020203>
+
+    b\) *Analyzing delays of NJ transit trains*:
+    <https://medium.com/@pranavbadami/how-data-can-help-fix-nj-transit-c0d15c0660fe>
+
+    c\) *Using visualizations to solve data science problems*:
+    <https://towardsdatascience.com/solving-a-data-science-challenge-the-visual-way-355cfabcb1c5>
+
+4.  Complete five challenges across any one of the sites in the *Python
+    practice* section of this chapter. For example, you can try the
+    following challenges:
+
+    a\) *Finding two numbers that add to a specific sum exactly*:
+    <https://leetcode.com/problems/two-sum/>
+
+    b\) *Validating credit card numbers*:
+    <https://www.hackerrank.com/challenges/validating-credit-card-number/problem>
 

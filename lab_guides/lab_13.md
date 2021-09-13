@@ -2087,3 +2087,31 @@ fence, and the threshold for the Z-score. To determine which of the
 rules was performing the best, we used the miss rate, false omission
 rate, false discovery rate, and the false alarm rate.
 
+Exercises
+=========
+
+
+Complete the following exercises to practice the concepts covered in
+this chapter:
+
+1.  Run the simulation for December 2018 into new log files without
+    making the user base again. Be sure to run
+    `python3 simulate.py -h` to review the command-line
+    arguments. Set the seed to `27`. This data will be used
+    for the remaining exercises.
+2.  Find the number of unique usernames, attempts, successes, and
+    failures, as well as the success/failure rates per IP address, using
+    the data simulated from exercise *1*.
+3.  Create two subplots with failures versus attempts on the left, and
+    failure rate versus distinct usernames on the right. Draw decision
+    boundaries for the resulting plots. Be sure to color each data point
+    by whether or not it is a hacker IP address.
+4.  Build a rule-based criteria using the percentage difference from the
+    median that flags an IP address if the failures and attempts are
+    both five times their respective medians, or if the distinct
+    usernames count is five times its median. Be sure to use a one-hour
+    window. Remember to use the `get_baselines()` function to
+    calculate the metrics needed for the baselines.
+5.  Calculate metrics to evaluate how well these rules performed using
+    the `evaluate()` and `classification_stats()`
+    functions from this chapter.

@@ -1942,11 +1942,9 @@ We now have four temperature measurements for
 October 1, 2018, but only three for the remaining days:
 
 
-![Figure 3.39 -- Introducing an additional temperature measurement into
-the data ](./images/Figure_3.39_B16834.jpg)
+![](./images/Figure_3.39_B16834.jpg)
 
 
-the data
 
 Using `unstack()`, as we did previously, will result in
 `NaN` values for most of the `TAVG` data:
@@ -1989,8 +1987,7 @@ practice, it is better to be explicit about the missing data if we are
 sharing this with others and leave the `NaN` values:
 
 
-![Figure 3.41 -- Unstacking with a default value for missing
-combinations ](./images/Figure_3.41_B16834.jpg)
+![](./images/Figure_3.41_B16834.jpg)
 
 
 
@@ -2402,11 +2399,10 @@ they should be, so it\'s probably best to leave them alone or not look
 at this column:
 
 
-![Figure 3.48 -- Summary statistics for snowfall when snow depth is
-infinite ](./images/Figure_3.48_B16834.jpg)
+](./images/Figure_3.48_B16834.jpg)
 
 
-infinite
+
 
 We are working with a year of data, but somehow, we have 765 rows, so we
 should check why. The only columns we have yet to inspect are the
@@ -2430,11 +2426,9 @@ know that `?` occurs 367 times (765 - 398), without the need
 to use `value_counts()`:
 
 
-![Figure 3.49 -- Summary statistics for the non-numeric columns in the
-dirty data ](./images/Figure_3.49_B16834.jpg)
+![](./images/Figure_3.49_B16834.jpg)
 
 
-dirty data
 
 In practice, we may not know why the station is sometimes recorded as
 `?`---it could be intentional to show
@@ -2902,3 +2896,93 @@ interest; then, we used `pandas` to begin our introduction to
 data wrangling, which we will continue in the next lab. Finally, we
 learned how to deal with duplicate, missing, and invalid data points in
 various ways and discussed the ramifications of those decisions.
+
+Exercises
+=========
+
+Complete the following exercises using what we have learned so far in
+this book and the data in the `exercises/` directory:
+
+1.  We want to look at data for the **Facebook, Apple, Amazon, Netflix,
+    and Google** (**FAANG**) stocks, but we were given each as a
+    separate CSV file (obtained using the `stock_analysis`
+    package we will build in [*Chapter
+    7*](https://subscription.packtpub.com/book/data/9781800563452/10),
+    *Financial Analysis -- Bitcoin and the Stock Market*). Combine them
+    into a single file and store the dataframe of the FAANG data as
+    `faang` for the rest of the exercises:
+
+    a\) Read in the `aapl.csv`, `amzn.csv`,
+    `fb.csv`, `goog.csv`, and `nflx.csv`
+    files.
+
+    b\) Add a column to each dataframe, called `ticker`,
+    indicating the ticker symbol it is for (Apple\'s is AAPL, for
+    example); this is how you look up a stock. In this case, the
+    filenames happen to be the ticker symbols.
+
+    c\) Append them together into a single dataframe.
+
+    d\) Save the result in a CSV file called `faang.csv`.
+
+2.  With `faang`, use type conversion to cast the values of
+    the `date` column into datetimes and the
+    `volume` column into integers. Then, sort by
+    `date` and `ticker`.
+
+3.  Find the seven rows in `faang` with the lowest value for
+    `volume`.
+
+4.  Right now, the data is somewhere between long and wide format. Use
+    `melt()` to make it completely long format. Hint:
+    `date` and `ticker` are our ID variables (they
+    uniquely identify each row). We need to melt the rest so that we
+    don\'t have separate columns for `open`, `high`,
+    `low`, `close`, and `volume`.
+
+5.  Suppose we found out that on July 26, 2018 there was a glitch in how
+    the data was recorded. How should we handle this? Note that there is
+    no coding required for this exercise.
+
+6.  The **European Centre for Disease Prevention and Control**
+    (**ECDC**) provides an open dataset on COVID-19 cases called *daily
+    number of new reported cases of COVID-19 by country worldwide*
+    (<https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide>).
+    This dataset is updated daily, but we will use a snapshot that
+    contains data from January 1, 2020 through September 18, 2020. Clean
+    and pivot the data so that it is in wide format:
+
+    a\) Read in the `covid19_cases.csv` file.
+
+    b\) Create a `date` column using the data in the
+    `dateRep` column and the `pd.to_datetime()`
+    function.
+
+    c\) Set the `date` column as the index and sort the index.
+
+    d\) Replace all occurrences of `United_States_of_America`
+    and `United_Kingdom` with `USA` and
+    `UK`, respectively. Hint: the `replace()` method
+    can be run on the dataframe as a whole.
+
+    e\) Using the `countriesAndTerritories` column, filter the
+    cleaned COVID-19 cases data down to Argentina, Brazil, China,
+    Colombia, India, Italy, Mexico, Peru, Russia, Spain, Turkey, the UK,
+    and the USA.
+
+    f\) Pivot the data so that the index contains the dates, the columns
+    contain the country names, and the values are the case counts (the
+    `cases` column). Be sure to fill in `NaN` values
+    with `0`.
+
+7.  In order to determine the case totals per country efficiently, we
+    need the aggregation skills we will learn about in [*Chapter
+    4*](https://subscription.packtpub.com/book/data/9781800563452/6),
+    *Aggregating Pandas DataFrames*, so the ECDC data in the
+    `covid19_cases.csv` file has been aggregated for us and
+    saved in the `covid19_total_cases.csv` file. It contains
+    the total number of cases per country. Use this data to find the 20
+    countries with the largest COVID-19 case totals. Hints: when reading
+    in the CSV file, pass in `index_col='cases'`, and note
+    that it will be helpful to transpose the data before isolating the
+    countries.

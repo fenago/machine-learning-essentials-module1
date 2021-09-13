@@ -926,11 +926,8 @@ is scale; bitcoin is not only much more volatile but is much higher in
 value than everything else:
 
 
-![Figure 7.6 -- Summary statistics for the closing price per financial
-instrument ](./images/Figure_7.6_B16834.jpg)
+](./images/Figure_7.6_B16834.jpg)
 
-
-instrument
 
 If we don\'t want to look at the assets
 individually, we can combine them into a portfolio, which we can treat
@@ -3278,3 +3275,66 @@ custom applications. I strongly encourage you to reread the code in the
 `stock_analysis` package and test out some of the methods we
 didn\'t cover in this lab to make sure you have the concepts down.
 
+Exercises
+=========
+
+
+Use the `stock_analysis` package to complete the following
+exercises. Unless otherwise noted, use data from 2019 through the end of
+2020. In case there are any issues collecting the data with the
+`StockReader` class, backup CSV files are provided in the
+`exercises/` directory:
+
+1.  Using the `StockAnalyzer` and `StockVisualizer`
+    classes, calculate and plot three levels of support and resistance
+    for Netflix\'s closing price.
+
+2.  With the `StockVisualizer` class, look at the effect of
+    after-hours trading on the FAANG stocks:
+
+    a\) As individual stocks
+
+    b\) As a portfolio using the `make_portfolio()` function
+    from the `stock_analysis.utils` module
+
+3.  Using the `StockVisualizer.open_to_close()` method, create
+    a plot that fills the area between the FAANG stocks\' opening price
+    (as a portfolio) and its closing price each day in red if the price
+    declined and in green if the price increased. As a bonus, do the
+    same for a portfolio of bitcoin and the S&P 500.
+
+4.  Mutual funds and **exchange-traded funds** (**ETFs**) are funds that
+    are composed of many assets. They are built to mitigate risk, so
+    volatility for the fund will be lower than that of the assets that
+    compose it. (Information on how they differ can be found at
+    <https://www.investopedia.com/articles/exchangetradedfunds/08/etf-mutual-fund-difference.asp>.)
+    Compare a mutual fund or ETF of your choice to three of its largest
+    stocks (by composition) using annualized volatility and the
+    `AssetGroupAnalyzer` class.
+
+5.  Write a function that returns a dataframe of one row with columns
+    for `alpha`, `beta`, `sharpe_ratio`,
+    `annualized_volatility`, `is_bear_market`, and
+    `is_bull_market`, which each contain the results of
+    running the respective methods on a given stock using the
+    `StockAnalyzer` class. Dictionary comprehensions and the
+    `getattr()` function, as used in the
+    `AssetGroupAnalyzer.analyze()` method, will be useful.
+
+6.  With the `StockModeler` class, build an ARIMA model fit on
+    the S&P 500 data from January 1, 2019 through November 30, 2020 and
+    use it to predict the performance in December 2020. Be sure to
+    examine the residuals and compare the predicted performance to the
+    actual performance.
+
+7.  Request an API key for AlphaVantage
+    (<https://www.alphavantage.co/support/#api-key>) and collect the
+    daily foreign exchange rate from USD to JPY using the
+    `get_forex_rates()` method on the same
+    `StockReader` object you created to collect the data for
+    the previous exercises. Build a candlestick plot with the data from
+    February 2019 through January 2020, resampled to 1-week intervals.
+    Hint: take a look at the `slice()` function from the
+    standard library
+    (<https://docs.python.org/3/library/functions.html#slice>) in order
+    to provide the date range.

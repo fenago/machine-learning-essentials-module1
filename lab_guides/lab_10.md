@@ -726,11 +726,10 @@ generate the `Axes` objects for each subplot, we gained a lot
 more flexibility in the resulting layout:
 
 
-![Figure 5.14 -- Controlling which data gets plotted in each of the
-subplots ](./images/Figure_5.14_B16834.jpg)
+![](./images/Figure_5.14_B16834.jpg)
 
 
-subplots
+
 
 In the previous plot, we were able to compare countries with similar
 levels of daily new COVID-19 cases, but we couldn\'t compare all of them
@@ -1859,3 +1858,56 @@ choosing the appropriate plot. Be sure to check out the *Choosing the
 appropriate visualization* section in the *Appendix* for future
 reference.
 
+Exercises
+=========
+
+
+Create the following visualizations using what you have learned up to
+this point in this book. Use the data from this chapter\'s
+`data/` directory:
+
+1.  Plot the rolling 20-day minimum of the Facebook closing price using
+    `pandas`.
+
+2.  Create a histogram and KDE of the change from open to close in the
+    price of Facebook stock.
+
+3.  Using the earthquake data, create box plots for the magnitudes of
+    each `magType` used in Indonesia.
+
+4.  Make a line plot of the difference between the weekly maximum high
+    price and the weekly minimum low price for Facebook. This should be
+    a single line.
+
+5.  Plot the 14-day moving average of the daily change in new COVID-19
+    cases in Brazil, China, India, Italy, Spain, and the USA:
+
+    a\) First, use the `diff()` method that was introduced in
+    the *Working with time series data* section of [*Chapter
+    4*](https://subscription.packtpub.com/book/data/9781800563452/6),
+    *Aggregating Pandas DataFrames*, to calculate the day-over-day
+    change in new cases. Then, use `rolling()` to calculate
+    the 14-day moving average.
+
+    b\) Make three subplots: one for China; one for Spain and Italy; and
+    one for Brazil, India, and the USA.
+
+6.  Using `matplotlib` and `pandas`, create two
+    subplots side-by-side showing the effect that after-hours trading
+    has had on Facebook\'s stock prices:
+
+    a\) The first subplot will contain a line plot of the daily
+    difference between that day\'s opening price and the prior day\'s
+    closing price (be sure to review the *Working with time series data*
+    section of [*Chapter
+    4*](https://subscription.packtpub.com/book/data/9781800563452/6),
+    *Aggregating Pandas DataFrames*, for an easy way to do this).
+
+    b\) The second subplot will be a bar plot showing the net effect
+    this had monthly, using `resample()`.
+
+    c\) Bonus \#1: Color the bars according to whether there are gains
+    in the stock price (green) or drops in the stock price (red).
+
+    d\) Bonus \#2: Modify the *x*-axis of the bar plot to show the
+    three-letter abbreviation for the month.

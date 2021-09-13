@@ -275,11 +275,10 @@ operation also kept both the `station` and `id`
 columns, which are identical:
 
 
-![Figure 4.6 -- Results of an inner join between the weather and
-stations datasets ](./images/Figure_4.6_B16834.jpg)
+!](./images/Figure_4.6_B16834.jpg)
 
 
-datasets
+
 
 In order to remove the duplicate information in
 the `station` and `id` columns, we can rename one of
@@ -299,11 +298,10 @@ Since the columns shared the name, we only get one back after joining on
 them:
 
 
-![Figure 4.7 -- Matching the names of the joining column to prevent
-duplicate data in the result ](./images/Figure_4.7_B16834.jpg)
+!](./images/Figure_4.7_B16834.jpg)
 
 
-duplicate data in the result
+
 
 **Tip:** 
 
@@ -341,8 +339,7 @@ determining the availability of data per station, so getting null values
 isn\'t necessarily an issue:
 
 
-![Figure 4.8 -- Null values may be introduced when not using an inner
-join ](./images/Figure_4.8_B16834.jpg)
+](./images/Figure_4.8_B16834.jpg)
 
 
 
@@ -512,11 +509,10 @@ right suffix of `_?` was added to the names of the columns
 that came from the right dataframe:
 
 
-![Figure 4.12 -- Specifying the suffix for shared columns not being used
-in the join ](./images/Figure_4.12_B16834.jpg)
+![](./images/Figure_4.12_B16834.jpg)
 
 
-in the join
+
 
 When we are joining on the index, an easier way to do this is to use the
 `join()` method instead of `merge()`. It also
@@ -897,11 +893,10 @@ capitalization
 (<https://www.marketwatch.com/story/facebook-stock-crushed-after-revenue-user-growth-miss-2018-07-25>):
 
 
-![Figure 4.18 -- Facebook stock data leading up to the day with the
-highest volume traded in 2018 ](./images/Figure_4.18_B16834.jpg)
+!](./images/Figure_4.18_B16834.jpg)
 
 
-highest volume traded in 2018
+
 
 If we look at the other two days marked as high-volume trading days, we
 will find a plethora of information as to why. Both of these days were
@@ -1249,11 +1244,10 @@ Once again, we joined the window calculations with
 the original data for comparison:
 
 
-![Figure 4.28 -- Performing different expanding window calculations per
-column ](./images/Figure_4.28_B16834.jpg)
+!](./images/Figure_4.28_B16834.jpg)
 
 
-column
+
 
 Both rolling and expanding windows equally weight all the observations
 in the window when performing calculations, but sometimes, we want to
@@ -1433,11 +1427,10 @@ In the previous example, we had to use `**kwargs` because the
 it:
 
 
-![Figure 4.31 -- Using pipes to perform exponentially weighted window
-calculations ](./images/Figure_4.31_B16834.jpg)
+![](./images/Figure_4.31_B16834.jpg)
 
 
-calculations
+
 
 To calculate the rolling 3-day weather
 aggregations for Central Park, we take advantage of `*args`
@@ -1853,11 +1846,10 @@ entries and a different one for the February ones. Note that the value
 for February is the value we found in the previous result:
 
 
-![Figure 4.40 -- The denominator for calculating the percentage of
-monthly precipitation ](./images/Figure_4.40_B16834.jpg)
+!](./images/Figure_4.40_B16834.jpg)
 
 
-precipitation
+
 
 We can make this a column in our
 dataframe to easily calculate the percentage of
@@ -1882,11 +1874,10 @@ the amount of monthly precipitation they accounted for make up more than
 50% of the rain in April. They were also consecutive days:
 
 
-![Figure 4.41 -- Calculating the percentage of monthly precipitation
-that occurred each day ](./images/Figure_4.41_B16834.jpg)
+!](./images/Figure_4.41_B16834.jpg)
 
 
-occurred each day
+
 
 **Important note:**
 
@@ -1955,11 +1946,10 @@ After resetting the index, we have our data in wide format. One final
 step would be to rename the index:
 
 
-![Figure 4.43 -- Pivot table with median values per datatype, station,
-and date ](./images/Figure_4.43_B16834.jpg)
+![(./images/Figure_4.43_B16834.jpg)
 
 
-date
+
 
 We can use the `pd.crosstab()` function to create a frequency
 table. For example, if we want to see how many low-, medium-,
@@ -1981,11 +1971,10 @@ This makes it easy to see the months when high volumes of Facebook stock
 were traded:
 
 
-![Figure 4.44 -- Crosstab showing the number of trading days per month,
-per volume traded bin ](./images/Figure_4.44_B16834.jpg)
+](./images/Figure_4.44_B16834.jpg)
 
 
-per volume traded bin
+
 
 **Tip:** 
 
@@ -2039,8 +2028,7 @@ down the rightmost column, we have the total snow
 observations in 2018 per station:
 
 
-![Figure 4.46 -- Crosstab counting the number of days with snow per
-month, per station ](./images/Figure_4.46_B16834.jpg)
+](./images/Figure_4.46_B16834.jpg)
 
 
 Just by looking at a few stations, we can see that, despite all of them
@@ -2130,11 +2118,10 @@ January 1, 2018 was a holiday, meaning that the market was closed. It
 was also a Monday, so the week here is only four days long:
 
 
-![Figure 4.48 -- Facebook stock data during the first week of trading in
-2018 ](./images/Figure_4.48_B16834.jpg)
+!](./images/Figure_4.48_B16834.jpg)
 
 
-2018
+
 
 We can perform a similar operation for the most
 recent dates as well. Selecting the last week in the data is as simple
@@ -2150,11 +2137,10 @@ Since December 31, 2018 was a Monday, the last week only consists of one
 day:
 
 
-![Figure 4.49 -- Facebook stock data during the last week of trading in
-2018 ](./images/Figure_4.49_B16834.jpg)
+!](./images/Figure_4.49_B16834.jpg)
 
 
-2018
+
 
 When working with daily stock data, we only have data for the dates the
 stock market was open. Suppose that we reindexed the data to include
@@ -2278,11 +2264,8 @@ per day. Volume traded will be the daily sum:
 This rolls the data up to a daily frequency:
 
 
-![Figure 4.51 -- Rolling up the data from the minute level to the daily
-level ](./images/Figure_4.51_B16834.jpg)
+](./images/Figure_4.51_B16834.jpg)
 
-
-level
 
 The next two methods we will discuss help us select data based on the
 time part of the datetime. The `at_time()` method allows us to
@@ -2401,8 +2384,7 @@ following day):
 This gives us the days that were most affected by after-hours trading:
 
 
-![Figure 4.54 -- Using lagged data to calculate after-hours changes in
-stock price ](./images/Figure_4.54_B16834.jpg)
+](./images/Figure_4.54_B16834.jpg)
 
 
 
@@ -2546,11 +2528,10 @@ Facebook\'s stock price declined in all but the
 second quarter:
 
 
-![Figure 4.59 -- Summarizing Facebook stock\'s performance per quarter
-in 2018 ](./images/Figure_4.59_B16834.jpg)
+](./images/Figure_4.59_B16834.jpg)
 
 
-2018
+
 
 Consider the melted minute-by-minute stock data in
 `melted_stock_data.csv`:
@@ -2586,11 +2567,10 @@ select it after calling `ohlc()`, which is pivoting our data.
 Otherwise, we will have a hierarchical index in the columns:
 
 
-![Figure 4.61 -- Resampling the stock prices per minute to form daily
-OHLC data ](./images/Figure_4.61_B16834.jpg)
+](./images/Figure_4.61_B16834.jpg)
 
 
-data
+
 
 In the previous examples, we **downsampled** to reduce the granularity
 of the data; however, we can also **upsample** to increase the
@@ -2763,3 +2743,109 @@ crosstabs. Finally, we looked at some time series-specific functionality
 in `pandas` for everything from selection and aggregation to
 merging.
 
+Exercises
+=========
+
+Using the CSV files in the `exercises/` folder and what we
+have learned so far in this book, complete the following exercises:
+
+1.  With the `earthquakes.csv` file, select all the
+    earthquakes in Japan with a magnitude of 4.9 or greater using the
+    `mb` magnitude type.
+
+2.  Create bins for each full number of earthquake magnitude (for
+    instance, the first bin is (0, 1\], the second is (1, 2\], and so
+    on) with the `ml` magnitude type and count how many are in
+    each bin.
+
+3.  Using the `faang.csv` file, group by the ticker and
+    resample to monthly frequency. Make the following aggregations:
+
+    a\) Mean of the opening price
+
+    b\) Maximum of the high price
+
+    c\) Minimum of the low price
+
+    d\) Mean of the closing price
+
+    e\) Sum of the volume traded
+
+4.  Build a crosstab with the earthquake data between the
+    `tsunami` column and the `magType` column.
+    Rather than showing the frequency count, show the maximum magnitude
+    that was observed for each combination. Put the magnitude type along
+    the columns.
+
+5.  Calculate the rolling 60-day aggregations of the OHLC data by ticker
+    for the FAANG data. Use the same aggregations as exercise *3*.
+
+6.  Create a pivot table of the FAANG data that compares the stocks. Put
+    the ticker in the rows and show the averages of the OHLC and volume
+    traded data.
+
+7.  Calculate the Z-scores for each numeric column of Amazon\'s data
+    (`ticker` is AMZN) in Q4 2018 using `apply()`.
+
+8.  Add event descriptions:
+
+    a\) Create a dataframe with the following three columns:
+    `ticker`, `date`, and `event`. The
+    columns should have the following values:
+
+    i\) `ticker`: `'FB'`
+
+    ii\) `date`:
+    `['2018-07-25', '2018-03-19', '2018-03-20']`
+
+    iii\) `event`:
+    `['Disappointing user growth announced after close.', 'Cambridge Analytica story', 'FTC investigation']`
+
+    b\) Set the index to `['date', 'ticker']`.
+
+    c\) Merge this data with the FAANG data using an outer join.
+
+9.  Use the `transform()` method on the FAANG data to
+    represent all the values in terms of the first date in the data. To
+    do so, divide all the values for each ticker by the values for the
+    first date in the data for that ticker. This is referred to as an
+    **index**, and the data for the first date is the **base**
+    (<https://ec.europa.eu/eurostat/statistics-explained/index.php/Beginners:Statistical_concept_-_Index_and_base_year>).
+    When data is in this format, we can easily see growth over time.
+    Hint: `transform()` can take a function name.
+
+10. The **European Centre for Disease Prevention and Control**
+    (**ECDC**) provides an open dataset on COVID-19 cases called *daily
+    number of new reported cases of COVID-19 by country worldwide*
+    (<https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide>).
+    This dataset is updated daily, but we will use a snapshot that
+    contains data through September 18, 2020. Complete the following
+    tasks to practice the skills you\'ve learned up to this point in the
+    book:
+
+    a\) Prepare the data:
+
+    i\) Read in the data in the `covid19_cases.csv` file.
+
+    ii\) Create a `date` column by parsing the
+    `dateRep` column into a datetime.
+
+    iii\) Set the `date` column as the index.
+
+    iv\) Use the `replace()` method to update all occurrences
+    of `United_States_of_America` and
+    `United_Kingdom` to `USA` and `UK`,
+    respectively.
+
+    v\) Sort the index.
+
+    b\) For the five countries with the most cases (cumulative), find
+    the day with the largest number of cases.
+
+    c\) Find the 7-day average change in COVID-19 cases for the last
+    week in the data for the five countries with the most cases.
+
+    d\) Find the first date that each country other than China had
+    cases.
+
+    e\) Rank the countries by cumulative cases using percentiles.

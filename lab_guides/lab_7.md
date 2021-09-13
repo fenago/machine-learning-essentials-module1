@@ -1905,8 +1905,7 @@ columns work as well:
 By using slicing, we can easily grab adjacent rows and columns:
 
 
-![Figure 2.23 -- Selecting ranges of adjacent rows and columns by
-position ](./images/Figure_2.23_B16834.jpg)
+![](./images/Figure_2.23_B16834.jpg)
 
 
 
@@ -2508,11 +2507,8 @@ allows us to create a column with the result of
 `NOT in_ca AND NOT in_alaska` per row:
 
 
-![Figure 2.36 -- Creating multiple new columns at once with lambda
-functions ](./images/Figure_2.36_B16834.jpg)
+![](./images/Figure_2.36_B16834.jpg)
 
-
-functions
 
 **Tip:** 
 
@@ -2844,3 +2840,25 @@ we discussed how to summarize our data and calculate statistics from it.
 Subsequently, we addressed how to take subsets of data via selection,
 slicing, indexing, and filtering. Finally, we practiced adding and
 removing both columns and rows from our dataframe.
+
+Exercises
+=========
+
+Using the `data/parsed.csv` file and the material from this
+chapter, complete the following exercises to practice your
+`pandas` skills:
+
+1.  Find the 95[th]{.superscript} percentile of earthquake magnitude in
+    Japan using the `mb` magnitude type.
+2.  Find the percentage of earthquakes in Indonesia that were coupled
+    with tsunamis.
+3.  Calculate summary statistics for earthquakes in Nevada.
+4.  Add a column indicating whether the earthquake happened in a country
+    or US state that is on the Ring of Fire. Use Alaska, Antarctica
+    (look for Antarctic), Bolivia, California, Canada, Chile, Costa
+    Rica, Ecuador, Fiji, Guatemala, Indonesia, Japan, Kermadec Islands,
+    Mexico (be careful not to select New Mexico), New Zealand, Peru,
+    Philippines, Russia, Taiwan, Tonga, and Washington.
+5.  Calculate the number of earthquakes in the Ring of Fire locations
+    and the number outside of them.
+6.  Find the tsunami count along the Ring of Fire.
