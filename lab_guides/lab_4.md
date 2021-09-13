@@ -434,49 +434,64 @@ The resulting p-value from this test is less than 0.05. As a conclusion, we can 
 
 1) **Following IQ scores are approximately normally distributed with a mean of 100 and standard deviation of 15. The proportion of people with IQs above 130 is:**
 
-1. 95%
-1. 68%
-1. 5%
-1. 2.5%
+A. 95%
 
-1) **Failing to reject the null hypothesis when it is false is:**
+B. 68%
 
-1. Alpha
-1. Type I error
-1. Beta
-1. Type II error
+C. 5%
 
-1) **A statistic is:**
+D. 2.5%
 
-1. A sample characteristic
-1. A population characteristic
-1. Unknown
-1. Normally distributed
+2) **Failing to reject the null hypothesis when it is false is:**
 
-1) **We reject the H0 Hypothesis when:**
+A. Alpha
 
-1. P-value < alpha
-1. P-value > alpha
-1. P-value = alpha
+B. Type I error
 
-1) **People commonly lie when asked questions about personal hygiene.. This is an example of:**
+C. Beta
 
-1. Sampling bias
-1. Confounding
-1. Non-response bias
-1. Response bias
+D. Type II error
+
+3) **A statistic is:**
+
+A. A sample characteristic
+
+B. A population characteristic
+
+C. Unknown
+
+D. Normally distributed
+
+
+4) **We reject the H0 Hypothesis when:**
+
+A. P-value < alpha
+
+B. P-value > alpha
+
+C. P-value = alpha
+
+5) **People commonly lie when asked questions about personal hygiene.. This is an example of:**
+
+A. Sampling bias
+
+B. Confounding
+
+C. Non-response bias
+
+D. Response bias
 
 **Fill in the spaces with appropriate answers**
 
 1) Because of the possibility of error in sampling from populations, researchers use \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ statements to describe results.
 
-1) A t-test is used to compare \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+2) A t-test is used to compare \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
-1) The two forms of two sample t-tests are \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+3) The two forms of two sample t-tests are \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
-1) \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ percent of the data will fall in two deviations in standard normal distribution.
+4) \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ percent of the data will fall in two deviations in standard normal distribution.
 
-1) An estimate of a population parameter given by two numbers between which the parameter would be expected to lie is called a \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ of the parameter.
+5) An estimate of a population parameter given by two numbers between which the parameter would be expected to lie is called a \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ of the parameter.
 
 **Programming Assignment** 
 
@@ -488,7 +503,7 @@ By referring to the code used in the case study perform the following tasks.
 
 1) Find the correlation between "**Gestation**"** and "**Birthweight**" variables.
 
-1) Compute two sample t-test on the "**Gestation**" variable by grouping the data on "**smoker**".
+2) Compute two sample t-test on the "**Gestation**" variable by grouping the data on "**smoker**".
 
 
 
@@ -503,20 +518,28 @@ By referring to the code used in the case study perform the following tasks.
 **Choose the appropriate options**
 
 1) D
-1) D
-1) A
-1) A
-1) D
+
+2) D
+
+3) A
+
+4) A
+
+5) D
 
 
 
 **Fill in the spaces with appropriate answers**
 
 1) Probability
-1) Two means
-1) Independent and dependent t-test
-1) 95%
-1) Interval Estimate
+
+2) Two means
+
+3) Independent and dependent t-test
+
+4) 95%
+
+5) Interval Estimate
 
 **Programming Assignment Solution**
 

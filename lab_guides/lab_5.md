@@ -278,37 +278,53 @@ The majority of the office and hotel properties are located in Manhattan. Furthe
 
 1) **Which of the following analyses require more than two variables for analysis?**
 
-1. Univariate analysis
-1. Bivariate analysis
-1. Multivariate analysis
-1. None of the above
+A. Univariate analysis
 
-1) **Which of the following plots is used to study the relationship between two continuous variables?**
+B. Bivariate analysis
 
-1. Scatter plot
-1. Bar plot
-1. Histograms
-1. None of these
+C. Multivariate analysis
 
-1) **Outliers are caused due to..?**
+D. None of the above
 
-1. Data entry
-1. Mistake in units
-1. Legitimate extreme value 
-1. All of the above
+2) **Which of the following plots is used to study the relationship between two continuous variables?**
 
-1) **Univariate analysis is performed on..?**
+A. Scatter plot
 
-1. Single variable
-1. Two variable
-1. More than two variables
-1. None of the above
-1) **What should be your next step if a variable has more than 80% missing values and the variable is not important for the analysis?**
+B. Bar plot
 
-1. Drop the variable
-1. Impute the missing values
-1. Remove the observation with missing values
-1. None of the above
+C. Histograms
+
+D. None of these
+
+3) **Outliers are caused due to..?**
+
+A. Data entry
+
+B. Mistake in units
+
+C. Legitimate extreme value 
+
+D. All of the above
+
+4) **Univariate analysis is performed on..?**
+
+A. Single variable
+
+B. Two variable
+
+C. More than two variables
+
+D. None of the above
+
+5) **What should be your next step if a variable has more than 80% missing values and the variable is not important for the analysis?**
+
+A. Drop the variable
+
+B. Impute the missing values
+
+C. Remove the observation with missing values
+
+D. None of the above
 
 **Programming Assignment** 
 
@@ -317,8 +333,10 @@ Using the data in the below URL,
 <https://www.kaggle.com/ruiromanini/mtcars>
 
 1) Perform the univariate analysis on the mpg variable.
-1) Check the correction between mpg and rest of the continuous variables.
-1) Perform multivariate analysis by grouping the data with am, gear, and cyl variables.
+
+2) Check the correction between mpg and rest of the continuous variables.
+
+3) Perform multivariate analysis by grouping the data with am, gear, and cyl variables.
 
 Solutions: Refer to page 210
 
@@ -328,10 +346,14 @@ Solutions: Refer to page 210
 **Choose the appropriate options**
 
 1) C
-1) A
-1) D
-1) A
-1) A
+
+2) A
+
+3) D
+
+4) A
+
+5) A
 
 
 

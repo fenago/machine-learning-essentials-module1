@@ -334,10 +334,10 @@ By referring to the code used in the case study, perform the following tasks:
 **Choose the appropriate options answers**
 
 1) E
-1) C
-1) A
-1) D
-1) A)True B) False C) True D) True and E)True
+2) C
+3) A
+4) D
+5) A)True B) False C) True D) True and E)True
 
 
 

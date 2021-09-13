@@ -182,51 +182,66 @@ Interpretation: You can see that it is most probable that John will record two o
 
 1) Which of the following statements best describes the expected value of a discrete random variable?
 
-1. It is the geometric average of all possible outcomes.
-1. It is the weighted average over all possible outcomes.
-1. It is the simple average of all possible outcomes.
-1. None of the above.
+A. It is the geometric average of all possible outcomes.
 
-1) Which of the following is not a true statement about the binomial probability distribution?
+B. It is the weighted average over all possible outcomes.
 
-1. Each outcome is independent of each other.
-1. Each outcome can be classified as either success or failure.
-1. The probability of success must be constant from trail to trail.
-1. The random variable of interest is continuous.
+C. It is the simple average of all possible outcomes.
 
-1) If n=10 and p = 0.8, then the mean of the binomial distribution is?
+D. None of the above.
 
-1. 0.08
-1. 1.26
-1. 1.60
-1. 8.00
+2) Which of the following is not a true statement about the binomial probability distribution?
 
-1) If the outcomes of a discrete random variable follow a Poisson distribution, then their
+A. Each outcome is independent of each other.
 
-1. Mean equals the variance.
-1. Mean equals the standard deviation.
-1. Median equals the variance.
-1. Median equals the standard deviation.
+B. Each outcome can be classified as either success or failure.
 
-1) The sum of the product of each value of a discrete random variable X times its probability is referred to as its
+C. The probability of success must be constant from trail to trail.
 
-1. Expected value.
-1. Variance.
-1. Mean.
-1. Both (a) and (c)
+D. The random variable of interest is continuous.
+
+3) If n=10 and p = 0.8, then the mean of the binomial distribution is?
+
+A. 0.08
+
+B. 1.26
+
+C. 1.60
+
+D. 8.00
+
+4) If the outcomes of a discrete random variable follow a Poisson distribution, then their
+
+A. Mean equals the variance.
+
+B. Mean equals the standard deviation.
+
+C. Median equals the variance.
+
+D. Median equals the standard deviation.
+
+5) The sum of the product of each value of a discrete random variable X times its probability is referred to as its
+
+A. Expected value.
+
+B. Variance.
+
+C. Mean.
+
+D. Both (a) and (c)
 
 **Fill in the spaces with appropriate answers**
 
 1) The \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ distribution can be used to approximate the binomial distribution when the number of trails is large and the probability of success is small (np <=7).
 
-1) If n = 10 and p = 0.8, then the standard deviation of the binomial distribution is \_\_\_\_\_\_\_\_\_\_\_\_\_.
+2) If n = 10 and p = 0.8, then the standard deviation of the binomial distribution is \_\_\_\_\_\_\_\_\_\_\_\_\_.
 
 
-1) If two events A and B are mutually exclusive then P (A∩B) = \_\_\_\_\_\_\_\_\_\_\_\_.
+3) If two events A and B are mutually exclusive then P (A∩B) = \_\_\_\_\_\_\_\_\_\_\_\_.
 
-1) A coin is tossed up 4 times. The probability that tails turn up in 3 cases is \_\_\_\_\_\_\_\_\_\_.
+4) A coin is tossed up 4 times. The probability that tails turn up in 3 cases is \_\_\_\_\_\_\_\_\_\_.
 
-1) Mutually Exclusive events \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+5) Mutually Exclusive events \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
 **Programming Assignment** 
 
@@ -281,18 +296,26 @@ Using Poisson distribution find the probability, P (X = 9).
 **Choose the appropriate options answers**
 
 1) A
-1) A
-1) D
-1) A
-1) C
+
+2) A
+
+3) D
+
+4) A
+
+5) C
 
 **Fill in the spaces with appropriate answers**
 
 1) Poisson
-1) 1.26
-1) 0
-1) ½
-1) Does not contain any common sample point
+
+2) 1.26
+
+3) 0
+
+4) ½
+
+5) Does not contain any common sample point
 
 **Programming Assignment Solutions**
 

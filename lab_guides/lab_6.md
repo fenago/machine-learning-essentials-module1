@@ -416,63 +416,98 @@ Regression models describe the relationship between variables by fitting a line 
 
 1) **Which one of the following are regression tasks?**
 
-1. Predict the age of a person
-1. Predict the country from where the person comes from
-1. Predict whether the price of petroleum will increase tomorrow
-1. Predict whether a document is related to science
+A. Predict the age of a person
 
-1) **Which of the following plots is used for normality test?**
+B. Predict the country from where the person comes from
 
-1. Scatter plot
-1. Bar plot
-1. qqplot
-1. None of these
+C. Predict whether the price of petroleum will increase tomorrow
 
-1) **Which of the following tests is used for heteroscedasticity?**
+D. Predict whether a document is related to science
 
-1. AD
-1. Ljung-Box
-1. Breusch-Pagan
-1. All of the above
+2) **Which of the following plots is used for normality test?**
 
-1) **Which of the following tests is used for *autocorrelation*?**
+A. Scatter plot
 
-1. AD
-1. Ljung-Box
-1. Breusch-Pagan
-1. White test
-1) **VIF > 10 is said to be:**
+B. Bar plot
 
-1. No Multicollinearity
-1. Less Multicollinearity
-1. High Multicollinearity
-1. None of the above
+C. qqplot
+
+D. None of these
+
+3) **Which of the following tests is used for heteroscedasticity?**
+
+A. AD
+
+B. Ljung-Box
+
+C. Breusch-Pagan
+
+D. All of the above
+
+4) **Which of the following tests is used for *autocorrelation*?**
+
+A. AD
+
+B. Ljung-Box
+
+C. Breusch-Pagan
+
+D. White test
+
+5) **VIF > 10 is said to be:**
+
+A. No Multicollinearity
+
+B. Less Multicollinearity
+
+C. High Multicollinearity
+
+D. None of the above
 
 **Fill in the spaces with appropriate answers**
 
 1) \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ diagrams are graphs of the data that are helpful in displaying the relationships between variables.
-1) The SSR is sometimes referred to as the variability in Y, as explained by \_\_\_\_\_\_\_\_\_\_\_\_\_\_.
-1) If the adjusted R2 \_\_\_\_\_\_\_\_\_\_\_\_\_\_ when a new variable is added, it would be an indication that the variable should not remain in the model.
-1) Regression analysis is sometimes called \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
-1) Complete the following equation: SST = SSR + 
+
+2) The SSR is sometimes referred to as the variability in Y, as explained by \_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+3) If the adjusted R2 \_\_\_\_\_\_\_\_\_\_\_\_\_\_ when a new variable is added, it would be an indication that the variable should not remain in the model.
+
+4) Regression analysis is sometimes called \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+5) Complete the following equation: SST = SSR + 
 
 **True or False**
 
 1) Simple Linear regression is built among more than two variables.
+
    1) True
-   1) False
-1) Multiple Linear regression is built between two or more than two variables:
+
+   2) False
+
+2) Multiple Linear regression is built between two or more than two variables:
+
    1) True
-   1) False
-1) Autocorrelation is having relationship between observation:
+
+  2) False
+
+3) Autocorrelation is having relationship between observation:
+
    1) True
-   1) False
-1) We drop the variable from the model if the p-value is insignificant:
+
+   2) False
+
+4) We drop the variable from the model if the p-value is insignificant:
+
    1) True
-   1) False
-1) Difference between actual and predicted values is called errors (or) residuals:
+
+   2) False
+
+5) Difference between actual and predicted values is called errors (or) residuals:
+
    1) True
-   1) False
+
+   2) False
+
 
 **Programming Assignment** 
 
@@ -481,8 +516,10 @@ Using the data in the below URL,
 <https://www.kaggle.com/ruiromanini/mtcars>
 
 1) Build the multiple linear regression model and predict mpg.
-1) Validate the assumptions for multiple linear regression.
-1) Evaluate the model metrics on the test set.
+
+2) Validate the assumptions for multiple linear regression.
+
+3) Evaluate the model metrics on the test set.
 
 **Solutions:** Refer to page 270
 
@@ -491,26 +528,38 @@ Using the data in the below URL,
 **Choose the appropriate options**
 
 1) A
-1) C
-1) C
-1) B
-1) C
+
+2) C
+
+3) C
+
+4) B
+
+5) C
 
 **Fill in the spaces with appropriate answers**
 
 1) Scatter
-1) The regression equation
-1) Decreases
-1) Least-Squares Regression
-1) SSE
+
+2) The regression equation
+
+3) Decreases
+
+4) Least-Squares Regression
+
+5) SSE
 
 **True or False**
 
 1) False
-1) True
-1) True
-1) True
-1) True
+
+2) True
+
+3) True
+
+4) True
+
+5) True
 
 
 
@@ -806,65 +855,99 @@ In this lab, we have learned the following:
 
 1) **What is the cost function?**
 
-1. Difference between predicted and actual value
-1. Difference between the observations
-1. Difference between the variables
-1. None of the above
+A. Difference between predicted and actual value
 
-1) **Optimization technique is used to**
+B. Difference between the observations
 
-1. Find the parameters with highest error
-1. Calculate the residuals
-1. Find the parameters with least error
-1. None of the above
+C. Difference between the variables
 
-1) **Feature scaling is used for**
+D. None of the above
 
-1. Regularization of parameters
-1. Making the data independent of units
-1. Calculating the residuals
-1. All of the above
+2) **Optimization technique is used to**
 
-1) **Following is not the feature selection technique**
+A. Find the parameters with highest error
 
-1. Forward selection
-1. Backward elimination
-1. ElasticNet
-1. LASSO
-1) ` `**From the below formula, lamba is called as**
+B. Calculate the residuals
+
+C. Find the parameters with least error
+
+D. None of the above
+
+3) **Feature scaling is used for**
+
+A. Regularization of parameters
+
+B. Making the data independent of units
+
+C. Calculating the residuals
+
+D. All of the above
+
+4) **Following is not the feature selection technique**
+
+A. Forward selection
+
+B. Backward elimination
+
+C. ElasticNet
+
+D. LASSO
+
+5) **From the below formula, lamba is called as**
 
 ![](./images/da/Aspose.Words.8e0affcc-ac68-4184-94d3-69ce9332cabb.557.png)
 
-1. Shrinkage parameter
-1. Learning rate
-1. Estimating parameter
-1. None of the above
+A. Shrinkage parameter
+
+B. Learning rate
+
+C. Estimating parameter
+
+D. None of the above
 
 **Fill in the spaces with appropriate answers**
 
 1) Categorical variables are converted to \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
-1) Normalization transforms the values between \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
-1) Gradient Descent is an \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ technique.
-1) The Dummy Variables Trap leads to \_\_\_\_\_\_\_\_\_\_\_\_\_\_ in the data.
-1) List down the Regularization techniques \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+2) Normalization transforms the values between \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+3) Gradient Descent is an \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ technique.
+
+4) The Dummy Variables Trap leads to \_\_\_\_\_\_\_\_\_\_\_\_\_\_ in the data.
+
+5) List down the Regularization techniques \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
 **True or False**
 
 1) Polynomial regression is used to capture the linear relationship between the independent and dependent variables.
+
    1) True
-   1) False
-1) Ridge Regression can completely shrink the parameter to Zero
+
+   2) False
+
+2) Ridge Regression can completely shrink the parameter to Zero
+
    1) True
-   1) False
-1) ‘’N’’ number of categories require N-1 Dummy Variables.
+
+   2) False
+
+3) ‘’N’’ number of categories require N-1 Dummy Variables.
+
    1) True
-   1) False
-1) Normalization Scales down the values between 0 & 1.
+
+   2) False
+
+4) Normalization Scales down the values between 0 & 1.
+
    1) True
-   1) False
-1) Bias is also called Test Error.
+
+   2) False
+
+5) Bias is also called Test Error.
+
    1) True
-   1) False
+
+   2) False
 
 **Programming Assignment** 
 
@@ -882,26 +965,38 @@ Using the data in the below URL,
 **Choose the appropriate options**
 
 1) A
-1) C
-1) B
-1) C
-1) A
+
+2) C
+
+3) B
+
+4) C
+
+5) A
 
 **Fill in the spaces with appropriate answers**
 
 1) Dummy Variables
-1) 0 & 1
-1) Optimization
-1) Multicolinearity
-1) Ridge, Lasso, Elasticnet.
+
+2) 0 & 1
+
+3) Optimization
+
+4) Multicolinearity
+
+5) Ridge, Lasso, Elasticnet.
 
 **True or False**
 
 1) False
-1) False
-1) True
-1) True
-1) False
+
+2) False
+
+3) True
+
+4) True
+
+5) False
 
 
 
